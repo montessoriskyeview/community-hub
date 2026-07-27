@@ -106,10 +106,10 @@ export const FaqView = () => {
             <SchoolList
               items={[
                 'Parents file homeschool documentation with Nevada state (we provide guidance)',
-                'Children attend our learning center 2-5 days per week depending on program',
+                'Children attend our cooperative program 2-5 days per week depending on track',
                 'Parents supplement at home and participate actively in the cooperative',
                 'Families share teaching responsibilities, administrative tasks, and facility maintenance',
-                'This is NOT a drop-off program - parents must be engaged partners',
+                'We offer drop-off options with stipulations, but this is NOT a traditional drop-off program — families must still meet co-op participation requirements. Contact us for clarification',
                 'We provide curriculum, materials, and professional guidance',
                 'Parents contribute their skills, time, and expertise to benefit all children',
               ]}
@@ -135,7 +135,7 @@ export const FaqView = () => {
                 "✅ You're comfortable with homeschooling legal requirements",
                 '✅ You want to build community with other engaged families',
                 '✅ You can attend monthly meetings and participate in decisions',
-                '❌ You prefer a traditional drop-off school experience',
+                '❌ You want a full traditional drop-off school with no parent participation',
                 '❌ You cannot commit to monthly participation requirements',
                 '❌ You want minimal parent involvement in school operations',
               ]}
@@ -223,7 +223,7 @@ export const FaqView = () => {
       <CollapseContainer
         title="🍎 Is lunch provided or should my child bring their own?"
         content={
-          `Students can bring a healthy lunch from home or choose our nutritious learning center meal option for a ${donationPolicy.meals.suggestedDonationPerDay} per-day suggested donation. We understand that forgetting a lunch happens, and our program ensures your child has a healthy option available each day they're at the learning center. Lunch options include ham, cheese and crackers or a peanut butter and jelly sandwich along with fresh fruit (apple, banana, orange) and vegetables (carrot sticks, cucumber).`
+          `Learners can bring a healthy lunch from home or choose our nutritious cooperative meal option for a ${donationPolicy.meals.suggestedDonationPerDay} per-day suggested donation. We understand that forgetting a lunch happens, and our program ensures your child has a healthy option available each day they're at the coop. Lunch options include ham, cheese and crackers or a peanut butter and jelly sandwich along with fresh fruit (apple, banana, orange) and vegetables (carrot sticks, cucumber).`
         }
         spacing="lg"
       />
@@ -255,7 +255,7 @@ export const FaqView = () => {
                 'Legally, your child is homeschooled in Nevada - we provide documentation and guidance for state requirements.',
                 'Small class sizes (around 15 students) with mixed ages, like a one-room schoolhouse.',
                 'Curriculum and schedule tailored to each class with parent input and involvement.',
-                'This is a collaborative learning community, not a drop-off educational service.',
+                'This is a collaborative learning community — we offer drop-off options with stipulations, but this is not a traditional drop-off educational service; co-op participation is still required. Contact us for clarification.',
               ]}
             />
           </>
@@ -274,20 +274,20 @@ export const FaqView = () => {
         content={
           <>
             <Typography>
-              If a student's enrollment is terminated for any reason, the
+              If a learner's coop membership is ended for any reason, the
               following donation policy will apply:
             </Typography>
             <SchoolList
               items={[
                 "Donations support the cooperative's educational mission and are generally considered non-refundable once allocated to program operations.",
-                "Any request for a donation adjustment must be submitted in writing to the learning center administration within 30 days of the student's last day of attendance.",
+                "Any request for a donation adjustment must be submitted in writing to the cooperative administration within 30 days of the learner's last day of attendance.",
                 'Donation adjustments may be evaluated case-by-case based on timing and operational commitments.',
-                'The learning center reserves the right to make exceptions to this policy in certain circumstances, such as in cases of extended illness or family emergencies.',
+                'The cooperative reserves the right to make exceptions to this policy in certain circumstances, such as in cases of extended illness or family emergencies.',
               ]}
             />
             <Typography>
-              Please contact the learning center administration for any
-              questions regarding this policy or the enrollment process.
+              Please contact the cooperative administration for any
+              questions regarding this policy or the membership process.
             </Typography>
           </>
         }

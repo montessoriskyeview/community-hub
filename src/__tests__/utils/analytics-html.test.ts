@@ -120,3 +120,5 @@ describe('HTML Analytics Configuration Tests', () => {
     expect(GTAG_FUNCTION.initialization).toBe("gtag('js', new Date())");
   });
 });
+
+export {};

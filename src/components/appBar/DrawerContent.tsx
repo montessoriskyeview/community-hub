@@ -23,13 +23,14 @@ import ArticleIcon from '@mui/icons-material/Article';
 import PeopleIcon from '@mui/icons-material/People';
 import SchoolIcon from '@mui/icons-material/School';
 import GroupIcon from '@mui/icons-material/Group';
+import PetsIcon from '@mui/icons-material/Pets';
+import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
 import { OverridableComponent } from '@mui/material/OverridableComponent';
 import { SvgIconTypeMap } from '@mui/material';
 import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import {
   NAVIGATION_ITEMS,
-  NavigationItemKey,
 } from '../../i18n/site/navigation';
 
 export const DRAWER_WIDTH = 240;
@@ -288,6 +289,8 @@ export const NAVBAR_ITEMS: NavbarItem[] = [
       registration: RegistrationIcon,
       parentInvolvement: PeopleIcon,
       schedule: ScheduleIcon,
+      farmAnimalTime: PetsIcon,
+      giveaway: VolunteerActivismIcon,
       location: LocationOnIcon,
       enrollments: SchoolIcon,
       teachers: GroupIcon,
@@ -296,7 +299,7 @@ export const NAVBAR_ITEMS: NavbarItem[] = [
       accessibility: AccessibilityIcon,
       blog: ArticleIcon,
       contact: PhoneIcon,
-    }[item.key as NavigationItemKey],
+    }[item.key],
     isInCollapseMenu: item.isInCollapseMenu,
   })),
 ];

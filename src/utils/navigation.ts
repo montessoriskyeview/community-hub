@@ -5,6 +5,8 @@ export const PAGE_ROUTES: Record<string, string> = {
   donations: '/donations',
   'parent-involvement': '/parent-involvement',
   schedule: '/schedule',
+  'farm-animal-time': '/farm-animal-time',
+  giveaway: '/giveaway',
   location: '/location',
   philosophy: '/philosophy',
   contact: '/contact',

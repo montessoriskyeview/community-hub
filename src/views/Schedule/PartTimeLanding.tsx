@@ -39,9 +39,9 @@ export const PartTimeLanding = () => {
   return (
     <>
       <SEO
-        title="Part-Time Montessori Program | 9AM-1PM Daily | Skye View Learning Center"
-        description="Perfect Montessori introduction with our part-time program. Core learning hours 9AM-1PM with focused academics, outdoor activities, and family time balance. Ideal for families wanting quality education with flexibility."
-        keywords="part-time Montessori Las Vegas, 9AM-1PM Montessori program, half-day Montessori, flexible Montessori schedule, family-friendly Montessori, Las Vegas part-time learning center"
+        title="Part-Time Coop Program | 9AM-1PM Daily | Montessori Skye View Community Hub"
+        description="Perfect Montessori introduction with our part-time coop program. Core learning hours 9AM-1PM with focused academics, outdoor activities, and family time balance."
+        keywords="part-time Montessori coop Las Vegas, 9AM-1PM cooperative program, half-day Montessori coop, flexible homeschool coop schedule"
         url="/schedule/part-time"
       />
       <CanvasView extraMobileCtaMessage="If you have specific needs, contact us to see if we can provide specific accommodations.">
@@ -66,7 +66,7 @@ export const PartTimeLanding = () => {
               color: 'white',
             }}
           >
-            Part-Time Montessori Excellence
+            Part-Time Coop Excellence
           </Typography>
           <Typography
             variant="h2"
@@ -113,7 +113,7 @@ export const PartTimeLanding = () => {
               minWidth: 200,
             }}
           >
-            Enroll Now
+            Join the Coop
           </Button>
         </Box>
 
@@ -923,7 +923,7 @@ export const PartTimeLanding = () => {
                 textAlign: 'center',
               }}
             >
-              📝 Enrollment Donation Guidelines
+              📝 Coop Membership Donation Guidelines
             </Typography>
             <Grid container spacing={3} justifyContent="center">
               <Grid item xs={12} md={6}>
@@ -1058,7 +1058,7 @@ export const PartTimeLanding = () => {
                 minWidth: 200,
               }}
             >
-              Enroll Now
+              Join the Coop
             </Button>
             <Button
               component={Link}

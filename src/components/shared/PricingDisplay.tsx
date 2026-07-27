@@ -71,7 +71,7 @@ const HintText = styled(Typography)`
 export const PricingDisplay = ({
   yearlyPrice,
   monthlyOptions,
-  hint = '💡 Suggested annual donations help simplify planning for the school year',
+  hint = '💡 Suggested annual donations help simplify planning for the coop year',
 }: PricingDisplayProps) => {
   return (
     <PricingContainer component="div">

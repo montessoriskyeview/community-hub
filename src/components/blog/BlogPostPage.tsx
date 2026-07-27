@@ -13,9 +13,9 @@ const BlogPostPage: React.FC = () => {
 
   useEffect(() => {
     if (post) {
-      document.title = `${post.title} | Skye View Learning Center`;
+      document.title = `${post.title} | Skye View Community Hub`;
     } else {
-      document.title = 'Blog Post Not Found | Skye View Learning Center';
+      document.title = 'Blog Post Not Found | Skye View Community Hub';
     }
   }, [post]);
 

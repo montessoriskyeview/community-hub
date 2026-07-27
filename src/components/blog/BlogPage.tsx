@@ -16,7 +16,7 @@ const BlogPage: React.FC = () => {
   // Update document title for SEO
   useEffect(() => {
     document.title =
-      'Montessori Blog - Expert Insights & Resources | Skye View Learning Center';
+      'Montessori Blog - Expert Insights & Resources | Skye View Community Hub';
   }, []);
 
   return (

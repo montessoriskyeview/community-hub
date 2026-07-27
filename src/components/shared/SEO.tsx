@@ -16,13 +16,13 @@ interface SEOProps {
 }
 
 export const SEO: React.FC<SEOProps> = ({
-  title = 'Montessori Skye View Learning Center | Child-Centered Education Las Vegas',
-  description = 'Nurturing curious minds and joyful hearts in grades Pre-K through 5th. Child-centered Montessori education with outdoor learning focus in Las Vegas. Superior staff ratio, homeschool supplementation available.',
-  keywords = 'Montessori education Las Vegas, child-centered learning, outdoor education, homeschool supplementation, Pre-K through 5th grade, Las Vegas learning center, Montessori school, child development, nature-based learning',
+  title = 'Montessori Skye View Community Hub | Homeschool Coop Las Vegas',
+  description = 'A Las Vegas community hub offering a Montessori homeschool parent cooperative, Farm Animal Time drop-in visits, and a resident giveaway swap for families.',
+  keywords = 'community hub Las Vegas, Montessori parent cooperative, homeschool coop Las Vegas, Farm Animal Time, community giveaway Las Vegas, Skye View',
   image = '/og-image.png',
   url = 'https://montessoriskyeview.com/',
   type = 'website',
-  author = 'Montessori Skye View Learning Center',
+  author = 'Montessori Skye View Community Hub',
   publishedTime,
   modifiedTime,
   section,

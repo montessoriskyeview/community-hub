@@ -1,7 +1,7 @@
 export const teachersPageContent = {
   heroTitle: '👩‍🏫 Meet Our Teachers',
   heroDescription:
-    "Get to know the dedicated educators who guide your child's learning journey at Montessori Skye View Learning Center. Our passionate teachers bring years of experience and a deep commitment to the Montessori philosophy.",
+    "Get to know the dedicated educators who guide your child's learning journey at Montessori Skye View Community Hub. Our passionate teachers bring years of experience and a deep commitment to the Montessori philosophy.",
   photoAltSuffix: 'photo',
   montessoriDifferenceTitle: '🌟 The Montessori Difference',
   montessoriDifferenceDescription:

@@ -1,4 +1,4 @@
-// SEO Utility Functions for Montessori Skye View Learning Center
+// SEO Utility Functions for Montessori Skye View Community Hub
 import { PHONE_INTERNATIONAL } from '../components/shared/contactUtils';
 
 export interface ISEOMetadata {
@@ -26,11 +26,11 @@ export interface IStructuredData {
 
 // Default SEO metadata for the site
 export const defaultSEO: ISEOMetadata = {
-  title: 'Montessori Skye View Learning Center | Las Vegas',
+  title: 'Montessori Skye View Community Hub | Homeschool Coop Las Vegas',
   description:
-    'Premier Montessori learning center in Las Vegas serving children ages 3-11. Child-led learning, outdoor education, and the best teacher-student ratio in the area.',
+    'Las Vegas community hub with a Montessori homeschool parent cooperative for ages 3-11, Farm Animal Time, and a resident giveaway swap.',
   keywords:
-    'Montessori Las Vegas, early childhood education, outdoor learning, child development, preschool Las Vegas, kindergarten Las Vegas, homeschool support',
+    'community hub Las Vegas, Montessori parent cooperative, Farm Animal Time, community giveaway, homeschool coop Las Vegas',
   ogType: 'website',
   twitterCard: 'summary_large_image',
 };
@@ -91,7 +91,7 @@ const updateOpenGraph = (metadata: ISEOMetadata) => {
       property: 'og:image:alt',
       content:
         metadata.ogImageAlt ||
-        "Montessori Skye View Learning Center - Don't compromise on education",
+        "Montessori Skye View Community Hub - Don't compromise on education",
     },
     { property: 'og:image:type', content: 'image/png' },
     {
@@ -172,7 +172,7 @@ export const generateBlogPostStructuredData = (post: any): IStructuredData => {
     dateModified: post.publishDate,
     publisher: {
       '@type': 'Organization',
-      name: 'Montessori Skye View Learning Center',
+      name: 'Montessori Skye View Community Hub',
       logo: {
         '@type': 'ImageObject',
         url: 'https://skyviewlearning.com/logo.png',
@@ -196,9 +196,9 @@ export const generateOrganizationStructuredData = (): IStructuredData => {
   return {
     '@context': 'https://schema.org',
     '@type': 'EducationalOrganization',
-    name: 'Montessori Skye View Learning Center',
+    name: 'Montessori Skye View Community Hub',
     description:
-      'Premier Montessori learning center in Las Vegas serving children ages 3-11 with child-led learning and outdoor education.',
+      'Las Vegas community hub with a Montessori homeschool parent cooperative, Farm Animal Time, and community giveaway programs.',
     url: 'https://skyviewlearning.com',
     logo: 'https://skyviewlearning.com/logo.png',
     address: {

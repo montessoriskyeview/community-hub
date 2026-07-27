@@ -64,7 +64,7 @@ export const MobileHeroCTA = ({
         tabIndex={0}
         aria-expanded={expanded}
         aria-label={
-          expanded ? 'Collapse enrollment options' : 'Expand enrollment options'
+          expanded ? 'Collapse membership options' : 'Expand membership options'
         }
         onKeyDown={(e: React.KeyboardEvent) => {
           if (e.key === 'Enter' || e.key === ' ') {
@@ -87,7 +87,7 @@ export const MobileHeroCTA = ({
               fontWeight: 600,
             }}
           >
-            📚 Ready to Enroll?{' '}
+            📚 Ready to Join the Coop?{' '}
             {extraTitle ? (
               <>
                 <br />

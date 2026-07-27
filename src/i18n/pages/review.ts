@@ -4,11 +4,11 @@ export const reviewContent = {
     'We value your feedback! Your review helps other families discover quality Montessori education in Las Vegas.',
   formTitle: '📝 Montessori Skye View Review Form',
   formDescription:
-    'Please take a moment to share your experience with our Montessori learning center. Your feedback helps us improve and assists other families in making informed decisions.',
+    'Please take a moment to share your experience with our community hub and cooperative. Your feedback helps us improve and assists other families in making informed decisions.',
   formUrl:
     'https://docs.google.com/forms/d/e/1FAIpQLSejkM6MFDbpgpMmvVobw3bYoNNKLIRh0sBFqSjkD9DUsSQMqg/viewform?embedded=true',
   formFrameTitle: 'Montessori Skye View Review Form',
-  formAriaLabel: 'Review form for Montessori Skye View Learning Center',
+  formAriaLabel: 'Review form for Montessori Skye View Community Hub',
   formLoadingLabel: 'Loading…',
   thanksTitle: '🙏 Thank You for Your Feedback',
   thanksDescription:

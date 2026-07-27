@@ -38,9 +38,9 @@ export const FullTimeLanding = () => {
   return (
     <>
       <SEO
-        title="Full-Time Montessori Program | 8AM-4PM Daily | Skye View Learning Center"
-        description="Give your child the complete Montessori experience with our full-time program. Extended hours 8AM-4PM with enriched curriculum, outdoor learning, and comprehensive care. Perfect for working parents."
-        keywords="full-time Montessori Las Vegas, 8AM-4PM Montessori program, extended care Montessori, working parents Montessori, complete Montessori curriculum, Las Vegas full-time learning center"
+        title="Full-Time Coop Program | 8AM-4PM Daily | Montessori Skye View Community Hub"
+        description="Give your child the complete Montessori coop experience with our full-time program. Extended hours 8AM-4PM with enriched curriculum, outdoor learning, and comprehensive care."
+        keywords="full-time Montessori coop Las Vegas, 8AM-4PM cooperative program, working parents Montessori coop, Las Vegas full-time coop"
         url="/schedule/full-time"
       />
       <CanvasView extraMobileCtaMessage="If you have specific needs, contact us to see if we can provide specific accommodations.">
@@ -65,7 +65,7 @@ export const FullTimeLanding = () => {
               color: 'white',
             }}
           >
-            Full-Time Montessori Excellence
+            Full-Time Coop Excellence
           </Typography>
           <Typography
             variant="h2"
@@ -112,7 +112,7 @@ export const FullTimeLanding = () => {
               minWidth: 200,
             }}
           >
-            Enroll Now
+            Join the Coop
           </Button>
         </Box>
 
@@ -797,7 +797,7 @@ export const FullTimeLanding = () => {
                 textAlign: 'center',
               }}
             >
-              📝 Enrollment Donation Guidelines
+              📝 Coop Membership Donation Guidelines
             </Typography>
             <Grid container spacing={3} justifyContent="center">
               <Grid item xs={12} md={6}>
@@ -932,7 +932,7 @@ export const FullTimeLanding = () => {
                 minWidth: 200,
               }}
             >
-              Enroll Now
+              Join the Coop
             </Button>
             <Button
               component={Link}

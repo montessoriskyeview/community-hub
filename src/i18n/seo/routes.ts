@@ -15,120 +15,135 @@ interface RouteSEOConfig {
 export const ROUTE_SEO_CONFIGS: Record<string, RouteSEOConfig> = {
   home: {
     title:
-      'Montessori Skye View Learning Center | Child-Centered Education Las Vegas',
+      'Montessori Skye View Community Hub | Homeschool Coop Las Vegas',
     description:
-      'Nurturing curious minds and joyful hearts in grades Pre-K through 5th. Child-centered Montessori education with outdoor learning focus in Las Vegas. Superior staff ratio, homeschool supplementation available.',
+      'A Las Vegas community hub offering a Montessori homeschool parent cooperative, Farm Animal Time drop-in visits, and a resident giveaway swap for families.',
     keywords:
-      'Montessori education Las Vegas, child-centered learning, outdoor education, homeschool supplementation, Pre-K through 5th grade, Las Vegas learning center, Montessori school, child development, nature-based learning',
+      'community hub Las Vegas, Montessori parent cooperative, homeschool coop Las Vegas, Farm Animal Time, community giveaway Las Vegas, Skye View',
     url: '/',
   },
   location: {
-    title:
-      'Our Campus Location | Montessori Skye View Learning Center Las Vegas',
+    title: 'Location | Montessori Skye View Community Hub Las Vegas',
     description:
-      'Visit our beautiful Skye Canyon campus in Las Vegas, designed specifically for Montessori learning with ample outdoor space for exploration and play.',
+      'Learn how our Las Vegas community hub and parent cooperative coordinate learning locations and on-site community programs.',
     keywords:
-      'Montessori campus Las Vegas, Skye Canyon location, outdoor learning space, Las Vegas Montessori school location, child-friendly campus',
+      'community hub location Las Vegas, Skye Canyon cooperative, Montessori coop location, Las Vegas community programs',
     url: '/location',
   },
   donations: {
     title:
-      'Family Donation Support | Montessori Skye View Learning Center Las Vegas',
+      'Family Donation Support | Montessori Skye View Community Hub Las Vegas',
     description:
-      'Transparent suggested donation levels and family contribution options for our Montessori learning center.',
+      'Transparent suggested donation levels and family contribution options for our Montessori parent cooperative.',
     keywords:
-      'Montessori family donations Las Vegas, nonprofit learning center support, parent cooperative contributions, Montessori donation options',
+      'Montessori family donations Las Vegas, nonprofit community hub support, parent cooperative contributions, Montessori donation options',
     url: '/donations',
   },
   schedule: {
-    title: 'Class Schedule & Programs | Montessori Skye View Learning Center',
+    title: 'Coop Programs & Schedule | Montessori Skye View Community Hub',
     description:
-      'Flexible class schedules and programs designed for Pre-K through 5th grade. Morning and afternoon sessions available with extended care options.',
+      'Explore full-time and part-time Montessori coop program tracks for Pre-K through 5th grade homeschool families in Las Vegas.',
     keywords:
-      'Montessori class schedule, Pre-K programs, elementary education schedule, Las Vegas Montessori programs, flexible learning schedules',
+      'Montessori coop schedule, homeschool cooperative programs, Pre-K coop Las Vegas, flexible learning schedules',
     url: '/schedule',
   },
   registration: {
-    title: 'Enrollment & Registration | Montessori Skye View Learning Center',
+    title: 'Coop Membership & Registration | Montessori Skye View Community Hub',
     description:
-      "Start your child's Montessori journey today. Simple enrollment process for Pre-K through 5th grade. Limited spots available.",
+      "Join our Montessori homeschool parent cooperative. Simple coop membership registration for Pre-K through 5th grade families.",
     keywords:
-      'Montessori enrollment Las Vegas, registration process, Pre-K enrollment, elementary school registration, Las Vegas Montessori admission',
+      'Montessori coop registration Las Vegas, parent cooperative membership, homeschool coop enrollment, Las Vegas Montessori coop',
     url: '/registration',
   },
   philosophy: {
-    title: 'Our Montessori Philosophy | Child-Centered Learning Approach',
+    title: 'Our Cooperative Philosophy | Child-Centered Learning Approach',
     description:
-      'Discover our unique Montessori philosophy combining traditional principles with outdoor learning and child-centered activities.',
+      'Discover our Montessori cooperative philosophy combining traditional principles with outdoor learning and family participation.',
     keywords:
-      'Montessori philosophy, child-centered learning, outdoor education philosophy, Montessori method, Las Vegas Montessori approach',
+      'Montessori cooperative philosophy, child-centered learning, outdoor education philosophy, parent cooperative method',
     url: '/philosophy',
   },
   contact: {
-    title: 'Contact Us | Montessori Skye View Learning Center Las Vegas',
+    title: 'Contact Us | Montessori Skye View Community Hub Las Vegas',
     description:
-      'Get in touch with our Montessori learning center in Las Vegas. Schedule a tour, ask questions, or learn more about our programs.',
+      'Get in touch with our Las Vegas community hub. Ask about the homeschool coop, Farm Animal Time, or the community giveaway.',
     keywords:
-      'contact Montessori Las Vegas, schedule tour, Montessori learning center contact, Las Vegas Montessori information',
+      'contact community hub Las Vegas, Montessori coop contact, Farm Animal Time Las Vegas, giveaway pickup Las Vegas',
     url: '/contact',
   },
   faq: {
-    title: 'Frequently Asked Questions | Montessori Skye View Learning Center',
+    title: 'Frequently Asked Questions | Montessori Skye View Community Hub',
     description:
-      'Find answers to common questions about our Montessori learning center, programs, enrollment, and child-centered education approach.',
+      'Find answers about our community hub, Montessori parent cooperative, suggested donations, and participation requirements.',
     keywords:
-      'Montessori FAQ, learning center questions, enrollment FAQ, Montessori education questions, Las Vegas Montessori FAQ',
+      'community hub FAQ, parent cooperative questions, Montessori coop FAQ, Las Vegas homeschool coop FAQ',
     url: '/faq',
   },
   accessibility: {
-    title: 'Accessibility Statement | Montessori Skye View Learning Center',
+    title: 'Accessibility Statement | Montessori Skye View Community Hub',
     description:
       'Our commitment to accessibility and inclusive design. Learn about our efforts to make our website accessible to all users.',
     keywords:
-      'accessibility, inclusive design, WCAG compliance, Montessori accessibility, Las Vegas Montessori accessibility',
+      'accessibility, inclusive design, WCAG compliance, community hub accessibility, Las Vegas Montessori accessibility',
     url: '/accessibility',
   },
   review: {
-    title:
-      'Share Your Experience | Montessori Skye View Learning Center Reviews',
+    title: 'Share Your Experience | Montessori Skye View Community Hub',
     description:
-      'Share your experience with our Montessori learning center. Your feedback helps other families discover quality Montessori education in Las Vegas.',
+      'Share your experience with our community hub and parent cooperative. Your feedback helps other Las Vegas families.',
     keywords:
-      'Montessori reviews Las Vegas, Montessori Skye View feedback, parent testimonials, Montessori learning center reviews, Las Vegas Montessori experience',
+      'community hub reviews Las Vegas, Montessori Skye View feedback, parent cooperative testimonials',
     url: '/review',
   },
   parents: {
-    title: 'Parent Resources | Montessori Skye View Learning Center',
+    title: 'Parent Resources | Montessori Skye View Community Hub',
     description:
-      'Access important documents, forms, and resources for parents. Enrollment applications, handbooks, and communication guidelines.',
+      'Access important documents, forms, and resources for coop member families. Handbooks, agreements, and communication guidelines.',
     keywords:
-      'parent resources, Montessori parent documents, enrollment forms, parent handbook, Montessori parent information, Las Vegas Montessori resources',
+      'parent resources, Montessori coop documents, membership forms, parent handbook, Las Vegas cooperative resources',
     url: '/parents',
   },
   staffResources: {
-    title: 'Staff Resources | Montessori Skye View Learning Center',
+    title: 'Staff Resources | Montessori Skye View Community Hub',
     description:
       'Confidential staff resources and materials. Access to curriculum guidelines, assessment forms, and professional development materials.',
     keywords:
-      'staff resources, Montessori staff materials, curriculum guidelines, assessment forms, professional development, Montessori staff documents',
+      'staff resources, Montessori staff materials, curriculum guidelines, assessment forms, professional development',
     url: '/staff-resources',
   },
   fullTimeLanding: {
     title:
-      'Full-Time Montessori Program | 8AM-4PM Daily | Skye View Learning Center',
+      'Full-Time Coop Program | 8AM-4PM Daily | Montessori Skye View Community Hub',
     description:
-      'Give your child the complete Montessori experience with our full-time program. Extended hours 8AM-4PM with enriched curriculum, outdoor learning, and comprehensive care. Perfect for working parents.',
+      'Give your child the complete Montessori coop experience with our full-time program. Extended hours 8AM-4PM with enriched curriculum and outdoor learning.',
     keywords:
-      'full-time Montessori Las Vegas, 8AM-4PM Montessori program, extended care Montessori, working parents Montessori, complete Montessori curriculum, Las Vegas full-time learning center',
+      'full-time Montessori coop Las Vegas, 8AM-4PM cooperative program, working parents Montessori coop',
     url: '/schedule/full-time',
   },
   partTimeLanding: {
     title:
-      'Part-Time Montessori Program | 9AM-1PM Daily | Skye View Learning Center',
+      'Part-Time Coop Program | 9AM-1PM Daily | Montessori Skye View Community Hub',
     description:
-      'Perfect Montessori introduction with our part-time program. Core learning hours 9AM-1PM with focused academics, outdoor activities, and family time balance. Ideal for families wanting quality education with flexibility.',
+      'Join our part-time Montessori coop program. Core learning hours 9AM-1PM with focused academics, outdoor activities, and family balance.',
     keywords:
-      'part-time Montessori Las Vegas, 9AM-1PM Montessori program, half-day Montessori, flexible Montessori schedule, family-friendly Montessori, Las Vegas part-time learning center',
+      'part-time Montessori coop Las Vegas, 9AM-1PM cooperative program, flexible homeschool coop schedule',
     url: '/schedule/part-time',
+  },
+  farmAnimalTime: {
+    title: 'Farm Animal Time | Drop-In Visits | Montessori Skye View Community Hub',
+    description:
+      'Drop-in Farm Animal Time for kids in Las Vegas. Suggested donation per child; supervising adults sign a responsibility document and are not charged.',
+    keywords:
+      'Farm Animal Time Las Vegas, farm animals kids drop-in, community hub animals, suggested donation per child',
+    url: '/farm-animal-time',
+  },
+  giveaway: {
+    title:
+      'Community Giveaway & Donation Pickup | Montessori Skye View Community Hub',
+    description:
+      'Las Vegas residents can pick up donated goods on site. Present a DL or passport with a Las Vegas address. Household pickup and storage-fee shelf options available.',
+    keywords:
+      'community giveaway Las Vegas, donation pickup Las Vegas, storage-fee thrift, resident giveaway swap',
+    url: '/giveaway',
   },
 };

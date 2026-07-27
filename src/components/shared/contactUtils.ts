@@ -1,5 +1,5 @@
 /**
- * Contact utilities for Montessori Skye View Learning Center
+ * Contact utilities for Montessori Skye View Community Hub
  *
  * This file contains shared contact information and utility functions
  * to ensure consistency across all components that handle contact interactions.
@@ -17,7 +17,7 @@ export const EMAIL_SUBJECT = 'Inquiry from Montessori Skye View Website';
 export const INCLUDE_BODY = false;
 export const EMAIL_BODY = `Hello,
 
-I'm interested in learning more about Montessori Skye View Learning Center.
+I'm interested in learning more about Montessori Skye View Community Hub.
 
 Please provide me with information about:
 - Tour availability

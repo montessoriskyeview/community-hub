@@ -42,10 +42,10 @@ describe('MobileHeroCTA', () => {
       render(<MobileHeroCTA />);
 
       const header = screen.getByRole('button', {
-        name: /expand enrollment options/i,
+        name: /expand membership options/i,
       });
       expect(header).toBeInTheDocument();
-      expect(screen.getByText(/ready to enroll/i)).toBeInTheDocument();
+      expect(screen.getByText(/ready to join the coop/i)).toBeInTheDocument();
     });
 
     test('renders with extra title and message when provided', async () => {
@@ -57,12 +57,12 @@ describe('MobileHeroCTA', () => {
       );
 
       // Check that the extra title text is present in the document
-      expect(screen.getByText(/ready to enroll/i)).toBeInTheDocument();
+      expect(screen.getByText(/ready to join the coop/i)).toBeInTheDocument();
       expect(document.body.textContent).toContain(extraTitle);
 
       // Expand the component to see the extra message
       const header = screen.getByRole('button', {
-        name: /expand enrollment options/i,
+        name: /expand membership options/i,
       });
       fireEvent.click(header);
 
@@ -84,7 +84,7 @@ describe('MobileHeroCTA', () => {
       render(<MobileHeroCTA />);
 
       const header = screen.getByRole('button', {
-        name: /expand enrollment options/i,
+        name: /expand membership options/i,
       });
 
       // Initially collapsed
@@ -107,7 +107,7 @@ describe('MobileHeroCTA', () => {
       render(<MobileHeroCTA />);
 
       const header = screen.getByRole('button', {
-        name: /expand enrollment options/i,
+        name: /expand membership options/i,
       });
 
       // Test Enter key
@@ -123,11 +123,11 @@ describe('MobileHeroCTA', () => {
       });
     });
 
-    test('shows enrollment and contact buttons when expanded', async () => {
+    test('shows membership and contact buttons when expanded', async () => {
       render(<MobileHeroCTA />);
 
       const header = screen.getByRole('button', {
-        name: /expand enrollment options/i,
+        name: /expand membership options/i,
       });
       fireEvent.click(header);
 
@@ -144,7 +144,7 @@ describe('MobileHeroCTA', () => {
       render(<MobileHeroCTA />);
 
       const header = screen.getByRole('button', {
-        name: /expand enrollment options/i,
+        name: /expand membership options/i,
       });
 
       expect(header).toHaveAttribute('aria-expanded');
@@ -156,18 +156,18 @@ describe('MobileHeroCTA', () => {
       render(<MobileHeroCTA />);
 
       const header = screen.getByRole('button', {
-        name: /expand enrollment options/i,
+        name: /expand membership options/i,
       });
 
       // Initial state
-      expect(header).toHaveAttribute('aria-label', 'Expand enrollment options');
+      expect(header).toHaveAttribute('aria-label', 'Expand membership options');
 
       // Expanded state
       fireEvent.click(header);
       await waitFor(() => {
         expect(header).toHaveAttribute(
           'aria-label',
-          'Collapse enrollment options'
+          'Collapse membership options'
         );
       });
     });
@@ -176,7 +176,7 @@ describe('MobileHeroCTA', () => {
       render(<MobileHeroCTA />);
 
       const header = screen.getByRole('button', {
-        name: /expand enrollment options/i,
+        name: /expand membership options/i,
       });
       fireEvent.click(header);
 
@@ -203,7 +203,7 @@ describe('MobileHeroCTA', () => {
       render(<MobileHeroCTA />);
 
       const header = screen.getByRole('button', {
-        name: /expand enrollment options/i,
+        name: /expand membership options/i,
       });
       fireEvent.click(header);
 

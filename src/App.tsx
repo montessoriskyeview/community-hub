@@ -97,6 +97,16 @@ const Teachers = React.lazy(() =>
     default: module.Teachers,
   }))
 );
+const FarmAnimalTime = React.lazy(() =>
+  import('./views/FarmAnimalTime').then(module => ({
+    default: module.FarmAnimalTime,
+  }))
+);
+const Giveaway = React.lazy(() =>
+  import('./views/Giveaway').then(module => ({
+    default: module.Giveaway,
+  }))
+);
 
 // Loading component optimized for mobile users
 const LoadingSpinner = () => (
@@ -183,6 +193,12 @@ const SEOUpdater: React.FC = () => {
       break;
     case '/schedule/part-time':
       seoConfig = ROUTE_SEO_CONFIGS.partTimeLanding;
+      break;
+    case '/farm-animal-time':
+      seoConfig = ROUTE_SEO_CONFIGS.farmAnimalTime;
+      break;
+    case '/giveaway':
+      seoConfig = ROUTE_SEO_CONFIGS.giveaway;
       break;
     default:
       seoConfig = ROUTE_SEO_CONFIGS.home;
@@ -380,6 +396,8 @@ function App() {
                 <Route path="/staff-resources" element={<StaffResources />} />
                 <Route path="/enrollments" element={<Enrollments />} />
                 <Route path="/teachers" element={<Teachers />} />
+                <Route path="/farm-animal-time" element={<FarmAnimalTime />} />
+                <Route path="/giveaway" element={<Giveaway />} />
                 <Route path="*" element={<ErrorPage />} />
               </Routes>
             </Suspense>

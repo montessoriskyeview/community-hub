@@ -30,7 +30,7 @@ describe('HTML File Content Validation Tests', () => {
   describe('Development Environment Handling', () => {
     it('should contain development title update logic', () => {
       expect(htmlContent).toContain(
-        "document.title = 'Montessori Skye View Learning Center | Child-Centered Education Las Vegas (DEV)'"
+        "document.title = 'Montessori Skye View Community Hub | Homeschool Coop Las Vegas (DEV)'"
       );
     });
 

@@ -4,6 +4,8 @@ export type NavigationItemKey =
   | 'registration'
   | 'parentInvolvement'
   | 'schedule'
+  | 'farmAnimalTime'
+  | 'giveaway'
   | 'location'
   | 'enrollments'
   | 'teachers'
@@ -28,18 +30,23 @@ export const PRIMARY_NAVIGATION_ITEMS: NavigationItemContent[] = [
   },
   {
     key: 'schedule',
-    text: 'Schedule',
+    text: 'Coop Programs',
     path: '/schedule',
   },
   {
-    key: 'registration',
-    text: 'Registration',
-    path: '/registration',
+    key: 'farmAnimalTime',
+    text: 'Farm Animal Time',
+    path: '/farm-animal-time',
   },
   {
-    key: 'parentInvolvement',
-    text: 'Parent Involvement',
-    path: '/parent-involvement',
+    key: 'giveaway',
+    text: 'Community Giveaway',
+    path: '/giveaway',
+  },
+  {
+    key: 'registration',
+    text: 'Coop Registration',
+    path: '/registration',
   },
   {
     key: 'faq',
@@ -50,13 +57,18 @@ export const PRIMARY_NAVIGATION_ITEMS: NavigationItemContent[] = [
 
 export const FOOTER_SECONDARY_NAVIGATION_ITEMS: NavigationItemContent[] = [
   {
+    key: 'parentInvolvement',
+    text: 'Parent Involvement',
+    path: '/parent-involvement',
+  },
+  {
     key: 'parentsResources',
     text: 'Parents Resources',
     path: '/parents',
   },
   {
     key: 'enrollments',
-    text: 'Enrollments',
+    text: 'Coop Membership',
     path: '/enrollments',
   },
   {

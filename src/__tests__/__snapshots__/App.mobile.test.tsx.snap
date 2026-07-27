@@ -40,120 +40,17 @@ exports[`App Component - Mobile Experience Mobile Layout and Responsiveness snap
               <h1
                 class="MuiTypography-root MuiTypography-h1 css-1wdblo5-MuiTypography-root"
               >
-                Montessori Skye View Parent Cooperative
+                Montessori Skye View Community Hub
               </h1>
               <h2
                 class="MuiTypography-root MuiTypography-h2 css-t22on4-MuiTypography-root"
               >
-                Community-Driven Montessori Education Las Vegas
+                Homeschool Coop · Farm Animal Time · Community Giveaway
               </h2>
               <p
                 class="MuiTypography-root MuiTypography-body1 css-8wnz1m-MuiTypography-root"
               >
-                A homeschool parent cooperative serving Pre-K through 5th grade where families are REQUIRED to actively participate in creating an exceptional Montessori learning community in Las Vegas, Nevada.
-              </p>
-            </div>
-            <div
-              class="MuiBox-root css-12recp6"
-              spacing="lg"
-              style="text-align: center; box-shadow: var(--shadow-xl);"
-              variant="card"
-            >
-              <h2
-                class="MuiTypography-root MuiTypography-h2 css-18rb5gt-MuiTypography-root"
-              >
-                ⚠️ IMPORTANT: This is an Active Participation Program
-              </h2>
-              <p
-                class="MuiTypography-root MuiTypography-body1 css-16npiqj-MuiTypography-root"
-              >
-                This is a HOMESCHOOL COOPERATIVE where parent participation is MANDATORY, not optional.
-              </p>
-              <div
-                style="display: grid; gap: var(--spacing-md); text-align: left; max-width: 800px; margin: 0px auto;"
-              >
-                <p
-                  class="MuiTypography-root MuiTypography-body1 css-19i7co3-MuiTypography-root"
-                >
-                  ✅ 
-                  <strong>
-                    You MUST contribute monthly
-                  </strong>
-                   - time, resources, or other support
-                </p>
-                <p
-                  class="MuiTypography-root MuiTypography-body1 css-19i7co3-MuiTypography-root"
-                >
-                  ✅ 
-                  <strong>
-                    You MUST participate
-                  </strong>
-                   in classroom activities, maintenance, or administration
-                </p>
-                <p
-                  class="MuiTypography-root MuiTypography-body1 css-19i7co3-MuiTypography-root"
-                >
-                  ✅ 
-                  <strong>
-                    You MUST homeschool
-                  </strong>
-                   - your child is legally homeschooled in Nevada
-                </p>
-                <p
-                  class="MuiTypography-root MuiTypography-body1 css-19i7co3-MuiTypography-root"
-                >
-                  ❌ 
-                  <strong>
-                    This is NOT a drop-off program
-                  </strong>
-                   - parents must be engaged partners
-                </p>
-                <p
-                  class="MuiTypography-root MuiTypography-body1 css-19i7co3-MuiTypography-root"
-                >
-                  ❌ 
-                  <strong>
-                    If you want minimal involvement
-                  </strong>
-                   - consider traditional private schools
-                </p>
-              </div>
-            </div>
-            <div
-              class="MuiBox-root css-12recp6"
-              spacing="lg"
-              style="text-align: center; box-shadow: var(--shadow-lg); overflow: hidden;"
-              variant="card"
-            >
-              <h2
-                class="MuiTypography-root MuiTypography-h2 css-18rb5gt-MuiTypography-root"
-              >
-                🌿 Community Learning in Action
-              </h2>
-              <div
-                class="MuiBox-root css-1psfugq"
-              >
-                <img
-                  alt="Children learning outdoors at Montessori Skye View Learning Center with teacher on sunny day - beautiful outdoor learning environment in Las Vegas"
-                  loading="eager"
-                  src="test-file-stub"
-                  style="width: 100%; height: auto; max-height: 500px; object-fit: cover; display: block;"
-                />
-              </div>
-              <p
-                class="MuiTypography-root MuiTypography-body1 css-nnjhko-MuiTypography-root"
-              >
-                "Nature is the best playground. It is the source of all learning, the foundation of all growth." - Dr. Maria Montessori
-              </p>
-              <p
-                class="MuiTypography-root MuiTypography-body1 css-1u4yuiq-MuiTypography-root"
-              >
-                The Montessori Skye View Parent Cooperative offers the lowest student-to-teacher ratio and the best outdoor landscape in the Las Vegas valley, with active parent involvement creating an exceptional learning community in our beautiful suburban campus!
-              </p>
-              <p
-                class="MuiTypography-root MuiTypography-body1 css-1u4yuiq-MuiTypography-root"
-              >
-                Our children thrive in our beautiful outdoor learning environment, where parents, educators, and children work together as nature becomes the classroom and every day brings new discoveries through collaborative learning.
+                A Las Vegas community hub whose first program is a Montessori homeschool parent cooperative for Pre-K through 5th grade — where families are REQUIRED to actively participate — alongside Farm Animal Time drop-in visits and a resident giveaway swap.
               </p>
             </div>
             <div
@@ -165,233 +62,35 @@ exports[`App Component - Mobile Experience Mobile Layout and Responsiveness snap
               <h2
                 class="MuiTypography-root MuiTypography-h2 css-18rb5gt-MuiTypography-root"
               >
-                🌟 Where Learning Comes Alive! 🌟
+                Explore Hub Programs
               </h2>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1mndvmc-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1b1y2rf-MuiTypography-root"
               >
-                Nurturing curious minds and joyful hearts in grades Pre-K through 5th
+                Beyond the homeschool coop, visit Farm Animal Time drop-in hours or the Community Giveaway for Las Vegas residents.
               </p>
-            </div>
-            <div
-              class="MuiBox-root css-1cufukc"
-              spacing="lg"
-              variant="default"
-            >
-              <h2
-                class="MuiTypography-root MuiTypography-h2 css-a8cnyw-MuiTypography-root"
-              >
-                About Our Homeschool Parent Cooperative
-              </h2>
-              <p
-                class="MuiTypography-root MuiTypography-body1 css-rhrrh7-MuiTypography-root"
-              >
-                Montessori Skye View is a homeschool parent cooperative where families are REQUIRED to be active partners in their child's education. This is not a traditional school where you drop off your child - parents must participate monthly in classroom activities, maintenance, administration, or other contributions. We combine the Montessori Method with mandatory family involvement, where parents work alongside educators to create an exceptional learning environment. As a cooperative, families share responsibility for education, governance, and daily operations. Your child is legally homeschooled in Nevada, and we provide guidance for state requirements. Located in the northwest corner of Las Vegas, our beautiful Skye Canyon campus provides ample outdoor space for collaborative learning and community building.
-              </p>
-            </div>
-            <div
-              class="MuiBox-root css-12recp6"
-              spacing="lg"
-              style="text-align: center; box-shadow: var(--shadow-lg);"
-              variant="card"
-            >
-              <h3
-                class="MuiTypography-root MuiTypography-h3 css-zwp07z-MuiTypography-root"
-              >
-                🌱 Our Cooperative Montessori Approach
-              </h3>
-              <p
-                class="MuiTypography-root MuiTypography-body1 css-160h652-MuiTypography-root"
-              >
-                We create a collaborative environment where children, parents, and educators work together to foster safety, value, and inspiration. Our experienced teachers partner with engaged families to guide each child's unique learning journey, helping them develop confidence, independence, and a lifelong love of learning through community involvement.
-              </p>
-            </div>
-            <div
-              class="MuiBox-root css-12recp6"
-              spacing="lg"
-              style="text-align: center; box-shadow: var(--shadow-lg);"
-              variant="card"
-            >
-              <h3
-                class="MuiTypography-root MuiTypography-h3 css-zwp07z-MuiTypography-root"
-              >
-                🎨 What Makes Our Parent Cooperative Special
-              </h3>
               <div
-                role="list"
-                style="display: grid; gap: var(--spacing-md); text-align: left;"
+                class="MuiBox-root css-1k4t52z"
               >
-                <div
-                  role="listitem"
-                  style="display: flex; align-items: center; gap: var(--spacing-sm);"
+                <a
+                  class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-ejx1gu-MuiTypography-root-MuiLink-root"
+                  href="/schedule"
                 >
-                  <span
-                    aria-hidden="true"
-                    style="font-size: 1.5rem;"
-                  >
-                     
-                    🎯
-                  </span>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-1flfr0h-MuiTypography-root"
-                  >
-                    Individualized learning plans for every child
-                  </p>
-                </div>
-                <div
-                  role="listitem"
-                  style="display: flex; align-items: center; gap: var(--spacing-sm);"
+                  Coop Programs
+                </a>
+                <a
+                  class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-ejx1gu-MuiTypography-root-MuiLink-root"
+                  href="/farm-animal-time"
                 >
-                  <span
-                    aria-hidden="true"
-                    style="font-size: 1.5rem;"
-                  >
-                     
-                    🤝
-                  </span>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-1flfr0h-MuiTypography-root"
-                  >
-                    Parent involvement in daily learning activities
-                  </p>
-                </div>
-                <div
-                  role="listitem"
-                  style="display: flex; align-items: center; gap: var(--spacing-sm);"
+                  Farm Animal Time
+                </a>
+                <a
+                  class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-ejx1gu-MuiTypography-root-MuiLink-root"
+                  href="/giveaway"
                 >
-                  <span
-                    aria-hidden="true"
-                    style="font-size: 1.5rem;"
-                  >
-                     
-                    🌿
-                  </span>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-1flfr0h-MuiTypography-root"
-                  >
-                    Beautiful outdoor learning spaces
-                  </p>
-                </div>
-                <div
-                  role="listitem"
-                  style="display: flex; align-items: center; gap: var(--spacing-sm);"
-                >
-                  <span
-                    aria-hidden="true"
-                    style="font-size: 1.5rem;"
-                  >
-                     
-                    💝
-                  </span>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-1flfr0h-MuiTypography-root"
-                  >
-                    Collaborative community that celebrates every family
-                  </p>
-                </div>
+                  Community Giveaway
+                </a>
               </div>
-            </div>
-            <div
-              class="MuiBox-root css-12recp6"
-              spacing="lg"
-              style="text-align: center; box-shadow: var(--shadow-lg);"
-              variant="card"
-            >
-              <h2
-                class="MuiTypography-root MuiTypography-h2 css-18rb5gt-MuiTypography-root"
-              >
-                🤝 Why Choose a Parent Cooperative?
-              </h2>
-              <div
-                role="list"
-                style="display: grid; gap: var(--spacing-lg); text-align: left; max-width: 800px; margin: 0px auto;"
-              >
-                <div
-                  role="listitem"
-                  style="display: flex; align-items: flex-start; gap: var(--spacing-md);"
-                >
-                  <span
-                    aria-hidden="true"
-                    style="font-size: 2rem; min-width: 3rem;"
-                  >
-                    👨‍👩‍👧‍👦
-                  </span>
-                  <div>
-                    <h4
-                      class="MuiTypography-root MuiTypography-h4 css-11qddnz-MuiTypography-root"
-                    >
-                      Active Family Involvement
-                    </h4>
-                    <p
-                      class="MuiTypography-root MuiTypography-body1 css-17d5oyv-MuiTypography-root"
-                    >
-                      Parents participate directly in their child's education through classroom assistance, special projects, and community events, creating stronger family-school connections.
-                    </p>
-                  </div>
-                </div>
-                <div
-                  role="listitem"
-                  style="display: flex; align-items: flex-start; gap: var(--spacing-md);"
-                >
-                  <span
-                    aria-hidden="true"
-                    style="font-size: 2rem; min-width: 3rem;"
-                  >
-                    💰
-                  </span>
-                  <div>
-                    <h4
-                      class="MuiTypography-root MuiTypography-h4 css-11qddnz-MuiTypography-root"
-                    >
-                      Community-Supported Quality Education
-                    </h4>
-                    <p
-                      class="MuiTypography-root MuiTypography-body1 css-17d5oyv-MuiTypography-root"
-                    >
-                      Cooperative membership can lower suggested donation requirements while maintaining high-quality Montessori education through shared responsibilities and community investment.
-                    </p>
-                  </div>
-                </div>
-                <div
-                  role="listitem"
-                  style="display: flex; align-items: flex-start; gap: var(--spacing-md);"
-                >
-                  <span
-                    aria-hidden="true"
-                    style="font-size: 2rem; min-width: 3rem;"
-                  >
-                    🌱
-                  </span>
-                  <div>
-                    <h4
-                      class="MuiTypography-root MuiTypography-h4 css-11qddnz-MuiTypography-root"
-                    >
-                      Stronger Learning Community
-                    </h4>
-                    <p
-                      class="MuiTypography-root MuiTypography-body1 css-17d5oyv-MuiTypography-root"
-                    >
-                      Children benefit from seeing their parents actively engaged in their learning environment, while families build lasting friendships and support networks.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="MuiBox-root css-1cufukc"
-              spacing="lg"
-              variant="default"
-            >
-              <h2
-                class="MuiTypography-root MuiTypography-h2 css-a8cnyw-MuiTypography-root"
-              >
-                Ready to Commit to Active Participation?
-              </h2>
-              <p
-                class="MuiTypography-root MuiTypography-body1 css-rhrrh7-MuiTypography-root"
-              >
-                We invite families who are ready to be ACTIVE PARTNERS in their child's education to explore our cooperative. This is perfect for families who want to be involved, can commit their time or materials on a monthly basis, and are comfortable with homeschooling requirements. If you're looking for a traditional drop-off school experience, this program is not for you. Contact us today to schedule a visit, meet our community, and learn about the participation requirements for joining our cooperative learning family!
-              </p>
             </div>
           </div>
         </div>
@@ -400,7 +99,7 @@ exports[`App Component - Mobile Experience Mobile Layout and Responsiveness snap
         >
           <div
             aria-expanded="false"
-            aria-label="Expand enrollment options"
+            aria-label="Expand membership options"
             class="MuiBox-root css-tpqms"
             role="button"
             tabindex="0"
@@ -411,7 +110,7 @@ exports[`App Component - Mobile Experience Mobile Layout and Responsiveness snap
               <span
                 style="font-weight: 600;"
               >
-                📚 Ready to Enroll?
+                📚 Ready to Join the Coop?
                  
               </span>
             </div>
@@ -523,7 +222,27 @@ exports[`App Component - Mobile Experience Mobile Layout and Responsiveness snap
               href="/schedule"
               tabindex="0"
             >
-              Schedule
+              Coop Programs
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </a>
+            <a
+              class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary css-1rmtn5e-MuiButtonBase-root-MuiButton-root"
+              href="/farm-animal-time"
+              tabindex="0"
+            >
+              Farm Animal Time
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </a>
+            <a
+              class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary css-1rmtn5e-MuiButtonBase-root-MuiButton-root"
+              href="/giveaway"
+              tabindex="0"
+            >
+              Community Giveaway
               <span
                 class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
               />
@@ -533,17 +252,7 @@ exports[`App Component - Mobile Experience Mobile Layout and Responsiveness snap
               href="/registration"
               tabindex="0"
             >
-              Registration
-              <span
-                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-              />
-            </a>
-            <a
-              class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary css-1rmtn5e-MuiButtonBase-root-MuiButton-root"
-              href="/parent-involvement"
-              tabindex="0"
-            >
-              Parent Involvement
+              Coop Registration
               <span
                 class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
               />
@@ -574,6 +283,16 @@ exports[`App Component - Mobile Experience Mobile Layout and Responsiveness snap
           >
             <a
               class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-10l2un7-MuiButtonBase-root-MuiButton-root"
+              href="/parent-involvement"
+              tabindex="0"
+            >
+              Parent Involvement
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </a>
+            <a
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-10l2un7-MuiButtonBase-root-MuiButton-root"
               href="/parents"
               tabindex="0"
             >
@@ -587,7 +306,7 @@ exports[`App Component - Mobile Experience Mobile Layout and Responsiveness snap
               href="/enrollments"
               tabindex="0"
             >
-              Enrollments
+              Coop Membership
               <span
                 class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
               />

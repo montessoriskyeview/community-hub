@@ -234,3 +234,5 @@ describe('Analytics Core Configuration Tests', () => {
     });
   });
 });
+
+export {};

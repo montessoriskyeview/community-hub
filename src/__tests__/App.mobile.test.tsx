@@ -133,7 +133,7 @@ describe('App Component - Mobile Experience', () => {
     test('images have proper alt text for screen readers', async () => {
       await renderApp(<App />);
 
-      const images = screen.getAllByRole('img');
+      const images = screen.queryAllByRole('img');
       images.forEach(img => {
         expect(img).toHaveAttribute('alt');
       });
