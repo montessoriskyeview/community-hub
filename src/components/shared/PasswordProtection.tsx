@@ -62,7 +62,7 @@ export const PasswordProtection: React.FC<IPasswordProtectionProps> = ({
   }
 
   return (
-    <CanvasView hideRouteChips>
+    <CanvasView>
       <ContentContainer
         variant="card"
         spacing="lg"

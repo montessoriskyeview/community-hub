@@ -47,6 +47,12 @@ const staffResourceLinks = {
     'https://docs.google.com/document/d/1p0v0ffUkCtoA92e0FvTX5FsH_Gb05c7xL8X_kz7V7rU/edit?usp=sharing',
 };
 
+export const coopLinks = {
+  farmAnimalTime: 'https://forms.gle/gPHdoTbDgk6hXTUU7',
+  donationForm: 'https://forms.gle/P6wuY83kN9EbMxUP7',
+  donationReviewForm: 'https://forms.gle/kdv4Y5xUAL8BvPBQ8',
+};
+
 export const getResourcesByType = (
   userType: 'parents' | 'staff'
 ): IResourceCategories => {

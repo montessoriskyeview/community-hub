@@ -46,6 +46,37 @@ export const FarmAnimalTime = () => {
         >
           {farmAnimalTimePageContent.heroSubtitle}
         </Typography>
+        {hasSignupUrl ? (
+          <Button
+            component="a"
+            href={signupUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            variant="contained"
+            size="large"
+            sx={{
+              minHeight: 48,
+              px: 4,
+              marginBottom: 'var(--spacing-lg)',
+            }}
+          >
+            {farmAnimalTimePageContent.signupCtaLabel}
+          </Button>
+        ) : (
+          <Button
+            component={RouterLink}
+            to={farmAnimalTimePageContent.contactFallbackPath}
+            variant="contained"
+            size="large"
+            sx={{
+              minHeight: 48,
+              px: 4,
+              marginBottom: 'var(--spacing-lg)',
+            }}
+          >
+            {farmAnimalTimePageContent.signupUnavailableLabel}
+          </Button>
+        )}
         <Typography
           variant="body1"
           sx={{
@@ -53,9 +84,20 @@ export const FarmAnimalTime = () => {
             fontSize: 'var(--text-lg)',
             lineHeight: 'var(--leading-loose)',
             fontWeight: 500,
+            marginBottom: 'var(--spacing-md)',
           }}
         >
           {farmAnimalTimePageContent.heroDescription}
+        </Typography>
+        <Typography
+          variant="body1"
+          sx={{
+            color: 'var(--text-dark)',
+            fontSize: 'var(--text-base)',
+            lineHeight: 'var(--leading-relaxed)',
+          }}
+        >
+          {farmAnimalTimePageContent.signupDescription}
         </Typography>
       </ContentContainer>
 
@@ -131,60 +173,6 @@ export const FarmAnimalTime = () => {
           {farmAnimalTimePageContent.supervisionTitle}
         </Typography>
         <SchoolList items={farmAnimalTimePageContent.supervisionItems} />
-      </ContentContainer>
-
-      <ContentContainer
-        variant="card"
-        spacing="lg"
-        style={{
-          textAlign: 'center',
-          background: 'var(--white)',
-          border: '3px solid var(--primary-blue)',
-        }}
-      >
-        <Typography
-          variant="h2"
-          sx={{
-            marginBottom: 'var(--spacing-md)',
-            fontWeight: 700,
-            fontSize: 'var(--text-2xl)',
-          }}
-        >
-          {farmAnimalTimePageContent.signupTitle}
-        </Typography>
-        <Typography
-          variant="body1"
-          sx={{
-            marginBottom: 'var(--spacing-xl)',
-            fontSize: 'var(--text-lg)',
-            lineHeight: 'var(--leading-relaxed)',
-          }}
-        >
-          {farmAnimalTimePageContent.signupDescription}
-        </Typography>
-        {hasSignupUrl ? (
-          <Button
-            component="a"
-            href={signupUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            variant="contained"
-            size="large"
-            sx={{ minHeight: 48, px: 4 }}
-          >
-            {farmAnimalTimePageContent.signupCtaLabel}
-          </Button>
-        ) : (
-          <Button
-            component={RouterLink}
-            to={farmAnimalTimePageContent.contactFallbackPath}
-            variant="contained"
-            size="large"
-            sx={{ minHeight: 48, px: 4 }}
-          >
-            {farmAnimalTimePageContent.signupUnavailableLabel}
-          </Button>
-        )}
       </ContentContainer>
     </CanvasView>
   );

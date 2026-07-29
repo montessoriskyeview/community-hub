@@ -91,9 +91,10 @@ Accent Colors:
 
 ### Development Setup
 1. Clone the repository
-2. Install dependencies: `npm install`
-3. Run development server: `npm start`
-4. Build for production: `npm run build`
+2. Use Node.js 24 (Active LTS; minimum Node 22+). If you use nvm: `nvm use`
+3. Install dependencies: `npm install`
+4. Run development server: `npm start`
+5. Build for production: `npm run build`
 
 ### Blog Development
 1. **Add New Posts**: Edit `src/data/blogPosts.ts`

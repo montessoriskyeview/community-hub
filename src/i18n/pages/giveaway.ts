@@ -1,4 +1,5 @@
 import { donationPolicy } from '../../config/donationPolicy';
+import { coopLinks } from '../../components/shared/resourceUtils';
 
 const { eligibility, pickupVisit, sizeCategories, storageFees, messaging } =
   donationPolicy.giveaway;
@@ -12,11 +13,14 @@ export const giveawayPageContent = {
   heroSubtitle: 'Donation pickup and giveaway swapping for Las Vegas residents',
   heroDescription:
     'Gently used goods stay on site until claimed. Community members may pick up from the giveaway zone or take storage-fee shelf items. A valid ID with a Las Vegas address is required at every visit.',
+  donateGoodsCtaLabel: 'Donate goods form',
+  donationReviewCtaLabel: 'Donation review form',
+  donateGoodsUrl: coopLinks.donationForm,
+  donationReviewUrl: coopLinks.donationReviewForm,
   eligibilityTitle: 'Who can pick up',
   eligibilityItems: [
     `Present a ${eligibility.idTypesLabel}`,
     eligibility.addressRequirementLabel,
-    eligibility.outOfScopeLabel,
   ],
   pickupTitle: 'Giveaway pickup visits',
   pickupIntro:

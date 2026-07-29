@@ -122,7 +122,6 @@ export const Schedule = () => {
               fontWeight: 500,
             }}
           >
-            ❌{' '}
             <strong>
               We offer drop-off options with stipulations, but this is NOT a
               traditional drop-off program

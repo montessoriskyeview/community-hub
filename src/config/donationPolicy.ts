@@ -1,3 +1,5 @@
+import { coopLinks } from '../components/shared/resourceUtils';
+
 export const donationPolicy = {
   legalStatus:
     'Montessori Skye View is transitioning to a 501(c)(3) nonprofit model.',
@@ -40,7 +42,7 @@ export const donationPolicy = {
       minSupervisingAdults: 1,
       adultsSuggestedDonation: 'No donation — supervising adults are not charged',
       responsibilityDocumentRequired: true,
-      signupUrl: '',
+      signupUrl: coopLinks.farmAnimalTime,
     },
   },
   giveaway: {

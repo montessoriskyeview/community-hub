@@ -5,12 +5,10 @@ import { useState } from 'react';
 
 export const CanvasView = ({
   children,
-  hideRouteChips,
   extraMobileCtaTitle,
   extraMobileCtaMessage,
 }: {
   children: React.ReactNode;
-  hideRouteChips?: boolean;
   extraMobileCtaTitle?: string;
   extraMobileCtaMessage?: string;
 }) => {
@@ -23,7 +21,6 @@ export const CanvasView = ({
         position: 'relative',
         minHeight: '100vh',
         overflow: 'auto',
-        backgroundColor: 'var(--cloud-white)',
         display: 'flex',
         flexDirection: 'column',
       }}
@@ -81,9 +78,8 @@ export const CanvasView = ({
         sx={{
           position: 'relative',
           zIndex: 1,
-          py: { xs: 4, md: 8 }, // Reduced padding for mobile
+          pt: 0,
           px: { xs: 0, md: 5 }, // Reduced horizontal padding for mobile
-          mt: hideRouteChips ? { xs: 2, md: 4 } : { xs: 4, md: 6 },
           pb: { xs: 10, md: 8 }, // Extra bottom padding on mobile for sticky CTA
           flex: 1,
           display: 'flex',
