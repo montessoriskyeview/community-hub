@@ -25,7 +25,7 @@ const slot1: EnrollmentSlot = {
 const slot2: EnrollmentSlot = {
   id: 'fall-2026',
   title: '2026 Fall registration',
-  href: 'https://forms.gle/hNZLLB6E3Y4qnzgz9',
+  href: 'https://docs.google.com/forms/d/e/1FAIpQLSfz0zCi_IRXouepiK9PAX8CzCqHXcbxzq6nmYY4VyfePsVBnw/viewform',
   isActive: true,
   availableInEnrollment: true,
 };
