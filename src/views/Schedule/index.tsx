@@ -65,8 +65,7 @@ export const Schedule = () => {
             marginBottom: 'var(--spacing-lg)',
           }}
         >
-          This is a HOMESCHOOL COOPERATIVE where parent participation is
-          MANDATORY, not optional.
+          This is a homeschool cooperative where parent participation options are flexible, but mandatory.
         </Typography>
         <div
           style={{

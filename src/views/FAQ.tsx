@@ -74,9 +74,7 @@ export const FaqView = () => {
         content={
           <>
             <Typography sx={{ marginBottom: 'var(--spacing-md)' }}>
-              <strong>IMPORTANT:</strong> Parent participation is mandatory, not
-              optional. Every family must contribute monthly to maintain
-              membership.
+              <strong>IMPORTANT:</strong> Parent participation options are flexible, but mandatory. Every family must contribute monthly to maintain
             </Typography>
             <SchoolList
               items={[
