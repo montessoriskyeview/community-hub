@@ -22,10 +22,7 @@ import IMG_6887 from '../../resources/images/location/IMG_6887.webp';
 
 export const Schedule = () => {
   return (
-    <CanvasView
-      extraMobileCtaTitle={schedulePageContent.extraMobileCtaTitle}
-      extraMobileCtaMessage={schedulePageContent.extraMobileCtaMessage}
-    >
+    <CanvasView>
       <InfoText
         title={schedulePageContent.title}
         text={schedulePageContent.intro}
@@ -859,40 +856,6 @@ export const Schedule = () => {
         title={schedulePageContent.weeklyScheduleTitle}
         items={schedulePageContent.weeklyScheduleItems}
       />
-
-      {/* Want different hours section */}
-      <div
-        style={{
-          marginTop: 'var(--spacing-xl)',
-          padding: 'var(--spacing-lg)',
-          backgroundColor: 'var(--primary-blue)',
-          borderRadius: 'var(--radius-lg)',
-          color: 'var(--white)',
-          textAlign: 'center',
-        }}
-      >
-        <Typography
-          variant="h3"
-          style={{
-            color: 'var(--white)',
-            marginBottom: 'var(--spacing-md)',
-            fontSize: 'var(--text-xl)',
-            fontWeight: 700,
-          }}
-        >
-          {schedulePageContent.flexibleSectionTitle}
-        </Typography>
-        <Typography
-          style={{
-            color: 'var(--white)',
-            fontSize: 'var(--text-base)',
-            lineHeight: 1.6,
-            opacity: 0.95,
-          }}
-        >
-          {schedulePageContent.flexibleSectionDescription}
-        </Typography>
-      </div>
     </CanvasView>
   );
 };

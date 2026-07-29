@@ -48,29 +48,6 @@ describe('MobileHeroCTA', () => {
       expect(screen.getByText(/ready to join the coop/i)).toBeInTheDocument();
     });
 
-    test('renders with extra title and message when provided', async () => {
-      const extraTitle = 'Special Program';
-      const extraMessage = 'Limited time offer';
-
-      render(
-        <MobileHeroCTA extraTitle={extraTitle} extraMessage={extraMessage} />
-      );
-
-      // Check that the extra title text is present in the document
-      expect(screen.getByText(/ready to join the coop/i)).toBeInTheDocument();
-      expect(document.body.textContent).toContain(extraTitle);
-
-      // Expand the component to see the extra message
-      const header = screen.getByRole('button', {
-        name: /expand membership options/i,
-      });
-      fireEvent.click(header);
-
-      await waitFor(() => {
-        expect(screen.getByText(extraMessage)).toBeInTheDocument();
-      });
-    });
-
     test('renders expand/collapse icon correctly', () => {
       render(<MobileHeroCTA />);
 

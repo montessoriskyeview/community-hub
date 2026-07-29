@@ -6,16 +6,7 @@ import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 import { EmailContact } from './EmailContact';
 import { PhoneContact } from './PhoneContact';
 
-interface IMobileHeroCTAProps {
-  variant?: 'primary' | 'secondary';
-  extraTitle?: string;
-  extraMessage?: string;
-}
-
-export const MobileHeroCTA = ({
-  extraTitle = undefined,
-  extraMessage = undefined,
-}: IMobileHeroCTAProps) => {
+export const MobileHeroCTA = () => {
   const [expanded, setExpanded] = useState(false);
 
   const toggleExpanded = () => {
@@ -88,14 +79,6 @@ export const MobileHeroCTA = ({
             }}
           >
             📚 Ready to Join the Coop?{' '}
-            {extraTitle ? (
-              <>
-                <br />
-                {extraTitle}
-              </>
-            ) : (
-              ''
-            )}
           </span>
         </Box>
         <IconButton
@@ -137,7 +120,7 @@ export const MobileHeroCTA = ({
                 lineHeight: 1.5,
               }}
             >
-              Join our Montessori community today
+              Join our coop community today
             </p>
           </Box>
 
@@ -171,33 +154,6 @@ export const MobileHeroCTA = ({
               },
             }}
           />
-
-          {/* Accommodation Message */}
-          {extraMessage ? (
-            <Box
-              component="div"
-              sx={{
-                marginTop: 'var(--spacing-lg)',
-                marginBottom: 'var(--spacing-md)',
-                padding: 'var(--spacing-md)',
-                backgroundColor: 'rgba(59, 130, 246, 0.1)',
-                borderRadius: 'var(--radius-md)',
-                border: '1px solid rgba(59, 130, 246, 0.2)',
-              }}
-            >
-              <p
-                style={{
-                  fontSize: 'var(--text-sm)',
-                  color: 'var(--text-secondary)',
-                  margin: 0,
-                  lineHeight: 1.5,
-                  textAlign: 'center',
-                }}
-              >
-                {extraMessage}
-              </p>
-            </Box>
-          ) : null}
 
           {/* Contact Buttons */}
           <Stack

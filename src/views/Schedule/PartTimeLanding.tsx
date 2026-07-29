@@ -44,7 +44,7 @@ export const PartTimeLanding = () => {
         keywords="part-time Montessori coop Las Vegas, 9AM-1PM cooperative program, half-day Montessori coop, flexible homeschool coop schedule"
         url="/schedule/part-time"
       />
-      <CanvasView extraMobileCtaMessage="If you have specific needs, contact us to see if we can provide specific accommodations.">
+      <CanvasView>
         {/* Hero Section */}
         <Box
           component="div"

@@ -5,12 +5,8 @@ import { useState } from 'react';
 
 export const CanvasView = ({
   children,
-  extraMobileCtaTitle,
-  extraMobileCtaMessage,
 }: {
   children: React.ReactNode;
-  extraMobileCtaTitle?: string;
-  extraMobileCtaMessage?: string;
 }) => {
   const [imageLoaded] = useState(false);
 
@@ -111,10 +107,7 @@ export const CanvasView = ({
       </Container>
 
       {/* Mobile Hero CTA - positioned independently outside main container */}
-      <MobileHeroCTA
-        extraTitle={extraMobileCtaTitle}
-        extraMessage={extraMobileCtaMessage}
-      />
+      <MobileHeroCTA />
 
       {/* Footer Container */}
       <Box

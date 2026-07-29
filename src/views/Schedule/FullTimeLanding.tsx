@@ -43,7 +43,7 @@ export const FullTimeLanding = () => {
         keywords="full-time Montessori coop Las Vegas, 8AM-4PM cooperative program, working parents Montessori coop, Las Vegas full-time coop"
         url="/schedule/full-time"
       />
-      <CanvasView extraMobileCtaMessage="If you have specific needs, contact us to see if we can provide specific accommodations.">
+      <CanvasView>
         {/* Hero Section */}
         <Box
           component="div"

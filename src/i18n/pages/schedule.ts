@@ -1,7 +1,4 @@
 export const schedulePageContent = {
-  extraMobileCtaTitle: 'Want different hours?',
-  extraMobileCtaMessage:
-    'If you have specific needs, contact us to see if we can provide specific accommodations.',
   title: 'Coop Programs',
   intro:
     'We believe time can be used more effectively and efficiently for learners in the cooperative classroom and offer a shortened core learning day as well as a full-time coop track. Our full-day program is offered from 8:00 am to 4:00 pm, with our core learning day taking place between the hours of 9:00 am - 1:00 pm.',
