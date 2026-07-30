@@ -106,7 +106,7 @@ export const EmailContact = ({
           ...sx,
         }}
         className={className}
-        aria-label="Email Montessori Skye View"
+        aria-label="Email Skye View"
       >
         {content}
       </Link>
@@ -123,7 +123,7 @@ export const EmailContact = ({
         ...sx,
       }}
       className={className}
-      aria-label="Email Montessori Skye View"
+      aria-label="Email Skye View"
     >
       {content}
     </Link>

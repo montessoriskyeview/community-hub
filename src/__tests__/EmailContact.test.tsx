@@ -20,7 +20,7 @@ describe('EmailContact Component', () => {
   test('renders with default props', () => {
     render(<EmailContact />);
     const link = screen.getByRole('link', {
-      name: /email montessori skye view/i,
+      name: /email skye view/i,
     });
     expect(link).toBeInTheDocument();
     expect(link).toHaveTextContent('✉️ Email Us');
@@ -29,7 +29,7 @@ describe('EmailContact Component', () => {
   test('renders with custom children', () => {
     render(<EmailContact>Custom Email Text</EmailContact>);
     const link = screen.getByRole('link', {
-      name: /email montessori skye view/i,
+      name: /email skye view/i,
     });
     expect(link).toHaveTextContent('Custom Email Text');
   });
@@ -37,7 +37,7 @@ describe('EmailContact Component', () => {
   test('tracks conversion when clicked', () => {
     render(<EmailContact />);
     const link = screen.getByRole('link', {
-      name: /email montessori skye view/i,
+      name: /email skye view/i,
     });
 
     fireEvent.click(link);
@@ -55,7 +55,7 @@ describe('EmailContact Component', () => {
   test('has correct mailto href', () => {
     render(<EmailContact />);
     const link = screen.getByRole('link', {
-      name: /email montessori skye view/i,
+      name: /email skye view/i,
     });
     expect(link).toHaveAttribute('href', expect.stringContaining('mailto:'));
   });
@@ -63,7 +63,7 @@ describe('EmailContact Component', () => {
   test('applies button variant styles', () => {
     render(<EmailContact variant="button" />);
     const link = screen.getByRole('link', {
-      name: /email montessori skye view/i,
+      name: /email skye view/i,
     });
     expect(link).toBeInTheDocument();
   });
@@ -71,7 +71,7 @@ describe('EmailContact Component', () => {
   test('applies custom sx styles', () => {
     render(<EmailContact sx={{ color: 'red' }} />);
     const link = screen.getByRole('link', {
-      name: /email montessori skye view/i,
+      name: /email skye view/i,
     });
     expect(link).toBeInTheDocument();
   });

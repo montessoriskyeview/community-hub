@@ -13,11 +13,11 @@ export const PHONE_INTERNATIONAL = '+1-760-534-0671';
 export const EMAIL = 'NWLVMontessori@gmail.com'.toLowerCase();
 
 // Email Template Configuration
-export const EMAIL_SUBJECT = 'Inquiry from Montessori Skye View Website';
+export const EMAIL_SUBJECT = 'Inquiry from Skye View Website';
 export const INCLUDE_BODY = false;
 export const EMAIL_BODY = `Hello,
 
-I'm interested in learning more about Montessori Skye View Community Hub.
+I'm interested in learning more about Skye View Community Hub.
 
 Please provide me with information about:
 - Tour availability

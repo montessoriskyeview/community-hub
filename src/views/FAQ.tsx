@@ -263,7 +263,7 @@ export const FaqView = () => {
       <CollapseContainer
         title={'🤝 What is your policy on "bad behavior"?'}
         content={
-          'The Montessori method focuses on teaching children consequences for their actions and emphasizes a strong, clear boundary along with guidance and responsibility for their actions. Parents are notified of unacceptable behavior, and repeated issues may lead to removal from the program.'
+          'Our approach focuses on teaching children consequences for their actions and emphasizes a strong, clear boundary along with guidance and responsibility for their actions. Parents are notified of unacceptable behavior, and repeated issues may lead to removal from the program.'
         }
         spacing="lg"
       />
@@ -323,7 +323,7 @@ export const FaqView = () => {
           }}
         >
           We're here to help! Contact us directly and we'll be happy to answer
-          any additional questions you may have about our Montessori program.
+          any additional questions you may have about our cooperative program.
         </Typography>
       </ContentContainer>
     </CanvasView>

@@ -4,14 +4,14 @@ export const blogPosts: IBlogPost[] = [
   {
     id: '1',
     title:
-      'The Magic of Montessori: How Child-Led Learning Transforms Education',
+      'The Magic of Child-Led Learning: How Curiosity Transforms Education',
     excerpt:
-      'Discover how Montessori principles create confident, independent learners who develop a lifelong love of education through hands-on experiences and natural curiosity.',
+      'Discover how child-centered principles create confident, independent learners who develop a lifelong love of education through hands-on experiences and natural curiosity.',
     content: `
-      <p>At Montessori Skye View Community Hub, we believe that every child possesses an innate desire to learn and explore the world around them. The Montessori method, developed by Dr. Maria Montessori over a century ago, recognizes this natural curiosity and creates an environment where children can follow their interests while developing essential life skills.</p>
+      <p>At Skye View Community Hub, we believe that every child possesses an innate desire to learn and explore the world around them. This child-centered approach recognizes this natural curiosity and creates an environment where children can follow their interests while developing essential life skills.</p>
       
-      <h2>What Makes Montessori Different?</h2>
-      <p>Traditional education often follows a one-size-fits-all approach, where all children learn the same material at the same time. Montessori education, however, respects each child's unique developmental timeline and learning style. Here's what sets it apart:</p>
+      <h2>What Makes Child-Led Learning Different?</h2>
+      <p>Traditional education often follows a one-size-fits-all approach, where all children learn the same material at the same time. Child-centered education, however, respects each child's unique developmental timeline and learning style. Here's what sets it apart:</p>
       
       <ul>
         <li><strong>Child-Led Learning:</strong> Children choose their activities based on their interests and developmental needs</li>
@@ -21,7 +21,7 @@ export const blogPosts: IBlogPost[] = [
         <li><strong>Uninterrupted Work Periods:</strong> Extended time for deep concentration and exploration</li>
       </ul>
       
-      <h2>The Role of the Montessori Guide</h2>
+      <h2>The Role of the Guide</h2>
       <p>In our learning center, our teachers serve as guides rather than traditional instructors. They observe each child carefully, understand their developmental needs, and prepare the environment to support their growth. This approach allows children to develop:</p>
       
       <ul>
@@ -33,11 +33,11 @@ export const blogPosts: IBlogPost[] = [
       </ul>
       
       <blockquote>
-        "The goal of early childhood education should be to activate the child's own natural desire to learn." - Maria Montessori
+        "The goal of early childhood education should be to activate the child's own natural desire to learn."
       </blockquote>
       
       <h2>Real Results in Our Community Hub</h2>
-      <p>Parents often ask us, "How do I know Montessori is working for my child?" The answer lies in the observable changes we see in our students:</p>
+      <p>Parents often ask us, "How do I know this approach is working for my child?" The answer lies in the observable changes we see in our students:</p>
       
       <ul>
         <li>Children who once struggled with focus now spend hours engaged in activities they love</li>
@@ -46,22 +46,22 @@ export const blogPosts: IBlogPost[] = [
         <li>Academic skills emerge naturally through hands-on exploration</li>
       </ul>
       
-      <p>At Montessori Skye View, we're not just teaching children—we're nurturing their natural development and helping them become the confident, capable individuals they're meant to be.</p>
+      <p>At Skye View, we're not just teaching children—we're nurturing their natural development and helping them become the confident, capable individuals they're meant to be.</p>
     `,
     author: {
       name: 'Sarah Johnson',
-      bio: 'Lead Montessori Guide with 15 years of experience in early childhood education',
+      bio: 'Lead Guide with 15 years of experience in early childhood education',
       avatar: '/images/authors/sarah-johnson.jpg',
     },
     publishDate: '2025-06-15',
     readTime: 8,
     tags: [
-      'Montessori Method',
+      'Child-Led Learning',
       'Child Development',
       'Education Philosophy',
       'Learning Environment',
     ],
-    category: 'Montessori Education',
+    category: 'Early Childhood Education',
     slug: 'magic-of-montessori-child-led-learning',
     featuredImage: '/images/blog/montessori-classroom.jpg',
   },
@@ -72,7 +72,7 @@ export const blogPosts: IBlogPost[] = [
     excerpt:
       "Explore how our outdoor-focused curriculum enhances children's development, creativity, and connection to the natural world through hands-on nature experiences.",
     content: `
-      <p>At Montessori Skye View Community Hub, we believe that nature is not just a backdrop for learning—it's an essential teacher. Our beautiful campus is designed to bring children into daily contact with the natural world, where they can learn through direct experience and develop a deep appreciation for the environment.</p>
+      <p>At Skye View Community Hub, we believe that nature is not just a backdrop for learning—it's an essential teacher. Our beautiful campus is designed to bring children into daily contact with the natural world, where they can learn through direct experience and develop a deep appreciation for the environment.</p>
       
       <h2>The Science Behind Outdoor Learning</h2>
       <p>Research consistently shows that children who spend time outdoors experience numerous benefits:</p>
@@ -125,7 +125,7 @@ export const blogPosts: IBlogPost[] = [
     `,
     author: {
       name: 'Michael Chen',
-      bio: 'Outdoor Education Specialist and Montessori Guide',
+      bio: 'Outdoor Education Specialist and Guide',
       avatar: '/images/authors/michael-chen.jpg',
     },
     publishDate: '2025-06-10',
@@ -143,14 +143,14 @@ export const blogPosts: IBlogPost[] = [
   {
     id: '3',
     title:
-      "Supporting Your Child's Independence: Practical Tips for Montessori Parents",
+      "Supporting Your Child's Independence: Practical Tips for Coop Parents",
     excerpt:
-      "Learn how to create a Montessori-inspired home environment that encourages your child's natural independence and self-confidence.",
+      "Learn how to create a child-centered home environment that encourages your child's natural independence and self-confidence.",
     content: `
-      <p>As Montessori parents, we understand that supporting your child's independence doesn't end when they leave our learning center. Creating a home environment that aligns with Montessori principles can significantly enhance your child's development and strengthen the connection between school and home.</p>
+      <p>As coop parents, we understand that supporting your child's independence doesn't end when they leave our learning center. Creating a home environment that aligns with child-centered principles can significantly enhance your child's development and strengthen the connection between school and home.</p>
       
-      <h2>Understanding Montessori Independence</h2>
-      <p>Independence in Montessori doesn't mean leaving children to fend for themselves. Instead, it means providing the right support and environment so children can do things for themselves. This includes:</p>
+      <h2>Understanding Childhood Independence</h2>
+      <p>Independence in our approach doesn't mean leaving children to fend for themselves. Instead, it means providing the right support and environment so children can do things for themselves. This includes:</p>
       
       <ul>
         <li><strong>Physical Independence:</strong> Dressing, feeding, and caring for themselves</li>
@@ -208,7 +208,7 @@ export const blogPosts: IBlogPost[] = [
       </ul>
       
       <blockquote>
-        "The child who has felt a strong love for his surroundings and for all living creatures, who has discovered joy and enthusiasm in work, gives us reason to hope that humanity can develop in a new direction." - Maria Montessori
+        "The child who has felt a strong love for his surroundings and for all living creatures, who has discovered joy and enthusiasm in work, gives us reason to hope that humanity can develop in a new direction."
       </blockquote>
       
       <h2>When to Step In and When to Step Back</h2>
@@ -225,7 +225,7 @@ export const blogPosts: IBlogPost[] = [
     `,
     author: {
       name: 'Emily Rodriguez',
-      bio: 'Parent Educator and Montessori Guide with expertise in home-school partnerships',
+      bio: 'Parent Educator and Guide with expertise in home-school partnerships',
       avatar: '/images/authors/emily-rodriguez.jpg',
     },
     publishDate: '2025-05-25',
@@ -234,7 +234,7 @@ export const blogPosts: IBlogPost[] = [
       'Parenting Tips',
       'Home Environment',
       'Child Independence',
-      'Montessori at Home',
+      'Learning at Home',
     ],
     category: 'Parent Resources',
     slug: 'supporting-child-independence-montessori-parents',
@@ -243,11 +243,11 @@ export const blogPosts: IBlogPost[] = [
   {
     id: '4',
     title:
-      'Early Childhood Education in Las Vegas: Why Montessori Leads the Way',
+      'Early Childhood Education in Las Vegas: Why Child-Centered Learning Leads the Way',
     excerpt:
-      'Discover how Montessori Skye View Community Hub provides the highest quality early childhood education in Las Vegas, combining proven Montessori methods with our unique outdoor learning environment.',
+      'Discover how Skye View Community Hub provides the highest quality early childhood education in Las Vegas, combining proven child-centered methods with our unique outdoor learning environment.',
     content: `
-      <p>When it comes to early childhood education in Las Vegas, parents have many options to choose from. But what sets Montessori Skye View Community Hub apart is our commitment to providing not just education, but a complete developmental experience that prepares children for lifelong success.</p>
+      <p>When it comes to early childhood education in Las Vegas, parents have many options to choose from. But what sets Skye View Community Hub apart is our commitment to providing not just education, but a complete developmental experience that prepares children for lifelong success.</p>
       
       <h2>What Makes Early Childhood Education So Critical?</h2>
       <p>The first five years of a child's life are the most important for brain development. During this period, children's brains form more than 1 million new neural connections every second. The quality of early childhood education directly impacts:</p>
@@ -259,8 +259,8 @@ export const blogPosts: IBlogPost[] = [
         <li><strong>Academic Foundation:</strong> Pre-reading, pre-math, and critical thinking skills</li>
       </ul>
       
-      <h2>Why Montessori is the Gold Standard for Early Childhood Education</h2>
-      <p>Dr. Maria Montessori's research revealed that children learn best when they're actively engaged in their environment. Our Montessori approach to early childhood education includes:</p>
+      <h2>Why Child-Centered Learning is the Gold Standard for Early Childhood Education</h2>
+      <p>Research has revealed that children learn best when they're actively engaged in their environment. Our child-centered approach to early childhood education includes:</p>
       
       <ul>
         <li><strong>Individualized Learning:</strong> Each child progresses at their own pace</li>
@@ -271,12 +271,12 @@ export const blogPosts: IBlogPost[] = [
       </ul>
       
       <h2>Our Unique Approach to Early Childhood Education in Las Vegas</h2>
-      <p>At Montessori Skye View, we've enhanced traditional Montessori methods with our signature outdoor learning program:</p>
+      <p>At Skye View, we've enhanced child-centered methods with our signature outdoor learning program:</p>
       
       <h3>Indoor Learning Environment</h3>
       <ul>
-        <li>Beautiful, well-equipped Montessori classrooms</li>
-        <li>Authentic Montessori materials for all learning areas</li>
+        <li>Beautiful, well-equipped classrooms</li>
+        <li>Hands-on learning materials for all learning areas</li>
         <li>Peaceful, organized spaces that promote concentration</li>
         <li>Low student-to-teacher ratios for personalized attention</li>
       </ul>
@@ -317,76 +317,76 @@ export const blogPosts: IBlogPost[] = [
       </ul>
       
       <blockquote>
-        "The most important period of life is not the age of university studies, but the first one, the period from birth to the age of six." - Maria Montessori
+        "The most important period of life is not the age of university studies, but the first one, the period from birth to the age of six."
       </blockquote>
       
-      <h2>Why Choose Montessori Skye View for Early Childhood Education?</h2>
-      <p>As Las Vegas's premier Montessori learning center, we offer:</p>
+      <h2>Why Choose Skye View for Early Childhood Education?</h2>
+      <p>As Las Vegas's premier learning center, we offer:</p>
       
       <ul>
-        <li><strong>Expert Staff:</strong> Certified Montessori guides with specialized early childhood training</li>
+        <li><strong>Expert Staff:</strong> Experienced guides with specialized early childhood training</li>
         <li><strong>Proven Results:</strong> Children who develop confidence, independence, and a love of learning</li>
         <li><strong>Beautiful Campus:</strong> Purpose-built environment designed for optimal learning</li>
         <li><strong>Flexible Programs:</strong> Full-time and part-time options to meet family needs</li>
         <li><strong>Parent Partnership:</strong> Regular communication and family support</li>
       </ul>
       
-      <h2>Getting Started with Early Childhood Education at Montessori Skye View</h2>
+      <h2>Getting Started with Early Childhood Education at Skye View</h2>
       <p>We understand that choosing the right early childhood education program is one of the most important decisions you'll make for your child. We invite you to:</p>
       
       <ul>
         <li>Schedule a personal tour of our campus</li>
         <li>Observe our classrooms in action</li>
-        <li>Meet our experienced Montessori guides</li>
+        <li>Meet our experienced guides</li>
         <li>Learn about our enrollment process</li>
       </ul>
       
-      <p>Contact us today to discover how Montessori Skye View Community Hub can provide your child with the highest quality early childhood education in Las Vegas.</p>
+      <p>Contact us today to discover how Skye View Community Hub can provide your child with the highest quality early childhood education in Las Vegas.</p>
     `,
     author: {
       name: 'Sarah Johnson',
-      bio: 'Lead Montessori Guide with 15 years of experience in early childhood education',
+      bio: 'Lead Guide with 15 years of experience in early childhood education',
       avatar: '/images/authors/sarah-johnson.jpg',
     },
     publishDate: '2025-06-25',
     readTime: 12,
     tags: [
       'Early Childhood Education',
-      'Montessori Method',
+      'Child-Led Learning',
       'Las Vegas Preschool',
       'Child Development',
-      'Montessori School',
+      'Learning Center',
     ],
-    category: 'Montessori Education',
+    category: 'Early Childhood Education',
     slug: 'early-childhood-education-las-vegas-montessori',
     featuredImage: '/images/blog/early-childhood-education.jpg',
   },
   {
     id: '5',
     title:
-      'Las Vegas Preschool Guide: Finding the Right Montessori Program for Your Child',
+      'Las Vegas Preschool Guide: Finding the Right Program for Your Child',
     excerpt:
-      'Navigate the Las Vegas preschool landscape with confidence. Learn what to look for in a quality Montessori preschool and why Montessori Skye View stands out among Las Vegas preschool options.',
+      'Navigate the Las Vegas preschool landscape with confidence. Learn what to look for in a quality preschool and why Skye View stands out among Las Vegas preschool options.',
     content: `
-      <p>Choosing a preschool in Las Vegas is a significant decision that will impact your child's educational foundation and future success. With so many options available, understanding what makes a quality Montessori preschool program can help you make the best choice for your family.</p>
+      <p>Choosing a preschool in Las Vegas is a significant decision that will impact your child's educational foundation and future success. With so many options available, understanding what makes a quality preschool program can help you make the best choice for your family.</p>
       
       <h2>What to Look for in a Las Vegas Preschool</h2>
       <p>When evaluating preschool options in Las Vegas, consider these essential factors:</p>
       
       <ul>
-        <li><strong>Accreditation and Licensing:</strong> Proper state licensing and Montessori accreditation</li>
-        <li><strong>Qualified Teachers:</strong> Certified Montessori guides with early childhood education training</li>
+        <li><strong>Accreditation and Licensing:</strong> Proper state licensing and early childhood accreditation</li>
+        <li><strong>Qualified Teachers:</strong> Experienced guides with early childhood education training</li>
         <li><strong>Low Student-Teacher Ratios:</strong> Individual attention and personalized learning</li>
         <li><strong>Comprehensive Curriculum:</strong> Well-rounded development including academics, social skills, and physical activity</li>
         <li><strong>Safe Environment:</strong> Clean, secure facilities with proper safety protocols</li>
         <li><strong>Parent Communication:</strong> Regular updates and opportunities for involvement</li>
       </ul>
       
-      <h2>Why Montessori Preschools Stand Out in Las Vegas</h2>
-      <p>Montessori preschools offer unique advantages that traditional preschools often can't match:</p>
+      <h2>Why Child-Centered Preschools Stand Out in Las Vegas</h2>
+      <p>preschools offer unique advantages that traditional preschools often can't match:</p>
       
       <h3>Individualized Learning</h3>
-      <p>Unlike traditional preschools that follow a one-size-fits-all curriculum, Montessori preschools recognize that each child learns differently. At Montessori Skye View, children:</p>
+      <p>Unlike traditional preschools that follow a one-size-fits-all curriculum, preschools recognize that each child learns differently. At Skye View, children:</p>
       
       <ul>
         <li>Choose activities based on their interests and developmental needs</li>
@@ -396,7 +396,7 @@ export const blogPosts: IBlogPost[] = [
       </ul>
       
       <h3>Hands-On Learning Materials</h3>
-      <p>Montessori materials are specifically designed to teach abstract concepts through concrete experience:</p>
+      <p>hands-on learning materials are specifically designed to teach abstract concepts through concrete experience:</p>
       
       <ul>
         <li><strong>Sensorial Materials:</strong> Help children refine their senses and understand concepts like size, shape, and color</li>
@@ -405,15 +405,15 @@ export const blogPosts: IBlogPost[] = [
         <li><strong>Mathematics Materials:</strong> Make abstract numbers concrete through manipulatives</li>
       </ul>
       
-      <h2>Montessori Skye View: A Premier Las Vegas Preschool</h2>
-      <p>Our learning center offers a unique combination of traditional Montessori excellence and innovative outdoor learning:</p>
+      <h2>Skye View: A Premier Las Vegas Preschool</h2>
+      <p>Our learning center offers a unique combination of child-centered excellence and innovative outdoor learning:</p>
       
       <h3>Our Campus and Facilities</h3>
       <ul>
-        <li>Beautiful, purpose-built Montessori classrooms</li>
+        <li>Beautiful, purpose-built classrooms</li>
         <li>Extensive outdoor learning spaces and gardens</li>
         <li>Safe, secure environment with controlled access</li>
-        <li>Modern amenities while maintaining Montessori principles</li>
+        <li>Modern amenities while maintaining child-centered principles</li>
       </ul>
       
       <h3>Our Programs</h3>
@@ -425,7 +425,7 @@ export const blogPosts: IBlogPost[] = [
       </ul>
       
       <h2>Comparing Preschool Options in Las Vegas</h2>
-      <p>Here's how Montessori Skye View compares to other preschool options:</p>
+      <p>Here's how Skye View compares to other preschool options:</p>
       
       <h3>Traditional Preschools</h3>
       <ul>
@@ -435,7 +435,7 @@ export const blogPosts: IBlogPost[] = [
         <li>Limited outdoor time and nature connection</li>
       </ul>
       
-      <h3>Montessori Skye View</h3>
+      <h3>Skye View Community Hub</h3>
       <ul>
         <li>Child-led learning with hands-on materials</li>
         <li>Individual attention with low student-teacher ratios</li>
@@ -444,14 +444,14 @@ export const blogPosts: IBlogPost[] = [
       </ul>
       
       <h2>What Parents Say About Our Las Vegas Preschool</h2>
-      <p>Don't just take our word for it. Here's what parents say about Montessori Skye View:</p>
+      <p>Don't just take our word for it. Here's what parents say about Skye View:</p>
       
       <blockquote>
-        "We looked at several preschools in Las Vegas, but Montessori Skye View stood out immediately. The combination of authentic Montessori education and outdoor learning is exactly what we wanted for our daughter." - Jennifer M., Las Vegas parent
+        "We looked at several preschools in Las Vegas, but Skye View stood out immediately. The combination of authentic child-centered education and outdoor learning is exactly what we wanted for our daughter." - Jennifer M., Las Vegas parent
       </blockquote>
       
       <blockquote>
-        "The teachers at Montessori Skye View truly understand child development. Our son has grown so much in confidence and independence since starting here." - Michael R., Las Vegas parent
+        "The teachers at Skye View truly understand child development. Our son has grown so much in confidence and independence since starting here." - Michael R., Las Vegas parent
       </blockquote>
       
       <h2>Making the Right Choice for Your Family</h2>
@@ -465,12 +465,12 @@ export const blogPosts: IBlogPost[] = [
         <li><strong>Trust Your Instincts:</strong> You know your child best</li>
       </ul>
       
-      <h2>Next Steps: Exploring Montessori Skye View</h2>
-      <p>Ready to discover why Montessori Skye View is the right Las Vegas preschool for your child?</p>
+      <h2>Next Steps: Exploring Skye View</h2>
+      <p>Ready to discover why Skye View is the right Las Vegas preschool for your child?</p>
       
       <ul>
         <li>Schedule a personal tour of our campus</li>
-        <li>Observe our Montessori classrooms in action</li>
+        <li>Observe our classrooms in action</li>
         <li>Meet our experienced teachers and staff</li>
         <li>Learn about our enrollment process and availability</li>
       </ul>
@@ -479,14 +479,14 @@ export const blogPosts: IBlogPost[] = [
     `,
     author: {
       name: 'Emily Rodriguez',
-      bio: 'Parent Educator and Montessori Guide with expertise in home-school partnerships',
+      bio: 'Parent Educator and Guide with expertise in home-school partnerships',
       avatar: '/images/authors/emily-rodriguez.jpg',
     },
     publishDate: '2025-07-01',
     readTime: 10,
     tags: [
       'Las Vegas Preschool',
-      'Montessori School',
+      'Learning Center',
       'Preschool Guide',
       'Child Development',
       'Early Childhood Education',
@@ -500,9 +500,9 @@ export const blogPosts: IBlogPost[] = [
     title:
       'Full-Time vs Part-Time Preschool: Making the Right Choice for Your Family',
     excerpt:
-      "Explore the benefits of full-time and part-time preschool programs at Montessori Skye View. Learn how to choose the right schedule for your child's development and your family's needs.",
+      "Explore the benefits of full-time and part-time preschool programs at Skye View. Learn how to choose the right schedule for your child's development and your family's needs.",
     content: `
-      <p>One of the most important decisions parents face when choosing a preschool is whether to enroll their child in a full-time or part-time program. At Montessori Skye View Community Hub, we offer both options to meet the diverse needs of Las Vegas families. Understanding the benefits of each can help you make the best choice for your child and family.</p>
+      <p>One of the most important decisions parents face when choosing a preschool is whether to enroll their child in a full-time or part-time program. At Skye View Community Hub, we offer both options to meet the diverse needs of Las Vegas families. Understanding the benefits of each can help you make the best choice for your child and family.</p>
       
       <h2>Understanding Preschool Program Options</h2>
       <p>Before diving into the differences, let's clarify what we mean by full-time and part-time preschool:</p>
@@ -518,7 +518,7 @@ export const blogPosts: IBlogPost[] = [
       
       <h3>Consistent Learning Environment</h3>
       <ul>
-        <li>Daily exposure to Montessori materials and activities</li>
+        <li>Daily exposure to hands-on learning materials and activities</li>
         <li>Consistent routines that support child development</li>
         <li>Continuous progress in skill development</li>
         <li>Stronger peer relationships and social skills</li>
@@ -526,7 +526,7 @@ export const blogPosts: IBlogPost[] = [
       
       <h3>Academic and Developmental Advantages</h3>
       <ul>
-        <li>More time for deep exploration of Montessori materials</li>
+        <li>More time for deep exploration of hands-on learning materials</li>
         <li>Extended periods for concentration and focus</li>
         <li>Greater exposure to language-rich environments</li>
         <li>More opportunities for leadership and peer teaching</li>
@@ -548,7 +548,7 @@ export const blogPosts: IBlogPost[] = [
         <li>Easier adjustment for children new to group settings</li>
         <li>Less overwhelming for shy or sensitive children</li>
         <li>Time to build confidence before full-time enrollment</li>
-        <li>Opportunity to assess if Montessori is the right fit</li>
+        <li>Opportunity to assess if this approach is the right fit</li>
       </ul>
       
       <h3>Family Flexibility</h3>
@@ -590,17 +590,17 @@ export const blogPosts: IBlogPost[] = [
       <ul>
         <li><strong>Academic Preparation:</strong> Full-time provides more comprehensive preparation</li>
         <li><strong>Social Development:</strong> Both programs support social skills</li>
-        <li><strong>Montessori Benefits:</strong> More time with materials enhances learning</li>
+        <li><strong>Learning Benefits:</strong> More time with materials enhances learning</li>
         <li><strong>Future School Plans:</strong> Consider transition to kindergarten</li>
       </ul>
       
-      <h2>Our Montessori Skye View Programs</h2>
-      <p>At Montessori Skye View, both our full-time and part-time programs offer the same high-quality Montessori education:</p>
+      <h2>Our Skye View Programs</h2>
+      <p>At Skye View, both our full-time and part-time programs offer the same high-quality child-centered education:</p>
       
       <h3>Full-Time Program (5 Days)</h3>
       <ul>
         <li>Monday through Friday, 8:00 AM - 3:00 PM</li>
-        <li>Comprehensive Montessori curriculum</li>
+        <li>Comprehensive curriculum</li>
         <li>Daily outdoor learning and nature exploration</li>
         <li>Extended care available 7:00 AM - 6:00 PM</li>
         <li>Ideal for working families and children ready for full immersion</li>
@@ -609,7 +609,7 @@ export const blogPosts: IBlogPost[] = [
       <h3>Part-Time Program (3 Days)</h3>
       <ul>
         <li>Monday, Wednesday, Friday, 8:00 AM - 3:00 PM</li>
-        <li>Same Montessori curriculum and materials</li>
+        <li>Same curriculum and materials</li>
         <li>Outdoor learning on program days</li>
         <li>Extended care available on program days</li>
         <li>Perfect for gradual introduction or family flexibility</li>
@@ -626,7 +626,7 @@ export const blogPosts: IBlogPost[] = [
       </ul>
       
       <blockquote>
-        "We started with part-time preschool and gradually increased to full-time as our daughter became more comfortable. The flexibility at Montessori Skye View made the transition smooth and stress-free." - Lisa T., Las Vegas parent
+        "We started with part-time preschool and gradually increased to full-time as our daughter became more comfortable. The flexibility at Skye View made the transition smooth and stress-free." - Lisa T., Las Vegas parent
       </blockquote>
       
       <h2>Questions to Ask When Choosing</h2>
@@ -651,11 +651,11 @@ export const blogPosts: IBlogPost[] = [
         <li>Discuss flexible options and transition plans</li>
       </ul>
       
-      <p>Contact Montessori Skye View Community Hub today to discover the perfect preschool program for your child and family.</p>
+      <p>Contact Skye View Community Hub today to discover the perfect preschool program for your child and family.</p>
     `,
     author: {
       name: 'Michael Chen',
-      bio: 'Outdoor Education Specialist and Montessori Guide',
+      bio: 'Outdoor Education Specialist and Guide',
       avatar: '/images/authors/michael-chen.jpg',
     },
     publishDate: '2025-07-10',
@@ -665,7 +665,7 @@ export const blogPosts: IBlogPost[] = [
       'Part-Time Preschool',
       'Preschool Programs',
       'Child Development',
-      'Montessori Education',
+      'Early Childhood Education',
     ],
     category: 'Parent Resources',
     slug: 'full-time-vs-part-time-preschool-choosing-right-program',

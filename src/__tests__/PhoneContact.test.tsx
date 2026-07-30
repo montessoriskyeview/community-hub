@@ -11,7 +11,7 @@ describe('PhoneContact Component', () => {
   test('renders with default props', () => {
     render(<PhoneContact />);
     const link = screen.getByRole('link', {
-      name: /call montessori skye view/i,
+      name: /call skye view/i,
     });
     expect(link).toBeInTheDocument();
     expect(link).toHaveTextContent('📞 Call Us');
@@ -20,7 +20,7 @@ describe('PhoneContact Component', () => {
   test('renders with custom children', () => {
     render(<PhoneContact>Custom Phone Text</PhoneContact>);
     const link = screen.getByRole('link', {
-      name: /call montessori skye view/i,
+      name: /call skye view/i,
     });
     expect(link).toHaveTextContent('Custom Phone Text');
   });
@@ -28,7 +28,7 @@ describe('PhoneContact Component', () => {
   test('tracks conversion when clicked', () => {
     render(<PhoneContact />);
     const link = screen.getByRole('link', {
-      name: /call montessori skye view/i,
+      name: /call skye view/i,
     });
 
     fireEvent.click(link);
@@ -47,7 +47,7 @@ describe('PhoneContact Component', () => {
   test('has correct tel href', () => {
     render(<PhoneContact />);
     const link = screen.getByRole('link', {
-      name: /call montessori skye view/i,
+      name: /call skye view/i,
     });
     expect(link).toHaveAttribute('href', expect.stringContaining('tel:'));
   });
@@ -55,7 +55,7 @@ describe('PhoneContact Component', () => {
   test('applies button variant styles', () => {
     render(<PhoneContact variant="button" />);
     const link = screen.getByRole('link', {
-      name: /call montessori skye view/i,
+      name: /call skye view/i,
     });
     expect(link).toBeInTheDocument();
   });
@@ -63,7 +63,7 @@ describe('PhoneContact Component', () => {
   test('applies custom sx styles', () => {
     render(<PhoneContact sx={{ color: 'red' }} />);
     const link = screen.getByRole('link', {
-      name: /call montessori skye view/i,
+      name: /call skye view/i,
     });
     expect(link).toBeInTheDocument();
   });

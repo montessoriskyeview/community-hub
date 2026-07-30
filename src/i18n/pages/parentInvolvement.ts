@@ -28,7 +28,7 @@ export const parentInvolvementContent = {
         'Help with daily activities, material preparation, and student guidance',
       timeCommitment: '2-4 hours per week',
       skills:
-        'Patience, love for children, willingness to learn Montessori methods',
+        'Patience, love for children, willingness to learn cooperative teaching methods',
     },
     {
       title: '🌿 Garden & Outdoor Learning',

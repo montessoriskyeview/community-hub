@@ -16,7 +16,7 @@ exports[`App Component - Mobile Experience Mobile Layout and Responsiveness snap
       role="main"
     >
       <div
-        class="MuiBox-root css-wxmjxp"
+        class="MuiBox-root css-qz6s8t"
       >
         <div
           class="MuiBox-root css-1mwyucw"
@@ -27,7 +27,7 @@ exports[`App Component - Mobile Experience Mobile Layout and Responsiveness snap
           />
         </div>
         <div
-          class="MuiContainer-root MuiContainer-maxWidthLg css-5epl8m-MuiContainer-root"
+          class="MuiContainer-root MuiContainer-maxWidthLg css-1lqvkxl-MuiContainer-root"
         >
           <div
             style="display: flex; flex-direction: column; gap: var(--spacing-3xl); width: 100%;"
@@ -40,7 +40,7 @@ exports[`App Component - Mobile Experience Mobile Layout and Responsiveness snap
               <h1
                 class="MuiTypography-root MuiTypography-h1 css-1wdblo5-MuiTypography-root"
               >
-                Montessori Skye View Community Hub
+                Skye View Community Hub
               </h1>
               <h2
                 class="MuiTypography-root MuiTypography-h2 css-t22on4-MuiTypography-root"
@@ -50,7 +50,7 @@ exports[`App Component - Mobile Experience Mobile Layout and Responsiveness snap
               <p
                 class="MuiTypography-root MuiTypography-body1 css-8wnz1m-MuiTypography-root"
               >
-                A Las Vegas community hub whose first program is a Montessori homeschool parent cooperative for Pre-K through 5th grade — where families are REQUIRED to actively participate — alongside Farm Animal Time drop-in visits and a resident giveaway swap.
+                A Las Vegas community hub whose first program is a homeschool parent cooperative for Pre-K through 5th grade — where families are REQUIRED to actively participate — alongside Farm Animal Time drop-in visits and a resident giveaway swap.
               </p>
             </div>
             <div
@@ -149,6 +149,37 @@ exports[`App Component - Mobile Experience Mobile Layout and Responsiveness snap
               style="background-color: rgb(31, 41, 55); color: rgb(255, 255, 255); border-radius: var(--radius-lg); box-shadow: var(--shadow-lg); text-align: center; width: 100%; max-width: 600px; align-self: center; justify-self: center; align-items: center; justify-content: center; margin: 0px auto; position: relative; z-index: 0;"
               variant="default"
             >
+              <div
+                class="MuiBox-root css-n88plx"
+              >
+                <a
+                  class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1dd9tcc-MuiTypography-root-MuiLink-root"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfz0zCi_IRXouepiK9PAX8CzCqHXcbxzq6nmYY4VyfePsVBnw/viewform"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <div
+                    style="display: flex; align-items: center; gap: var(--spacing-sm);"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                      data-testid="SchoolIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M5 13.18v4L12 21l7-3.82v-4L12 17zM12 3 1 9l11 6 9-4.91V17h2V9z"
+                      />
+                    </svg>
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-s2v3d5-MuiTypography-root"
+                    >
+                      2026 Fall registration
+                    </p>
+                  </div>
+                </a>
+              </div>
               <h4
                 class="MuiTypography-root MuiTypography-h4 css-z5nl2j-MuiTypography-root"
               >
@@ -176,7 +207,7 @@ exports[`App Component - Mobile Experience Mobile Layout and Responsiveness snap
               >
                 <a
                   aria-label="Email us at nwlvmontessori@gmail.com"
-                  href="mailto:nwlvmontessori@gmail.com?subject=Inquiry%20from%20Montessori%20Skye%20View%20Website"
+                  href="mailto:nwlvmontessori@gmail.com?subject=Inquiry%20from%20Skye%20View%20Website"
                   style="color: rgb(255, 255, 255); text-decoration: none; font-weight: 600; transition: all 0.3s ease; border-radius: var(--radius-sm); display: inline-block; min-height: 48px; min-width: 200px; line-height: 1.2; box-shadow: var(--shadow-md);"
                 >
                   ✉️ 

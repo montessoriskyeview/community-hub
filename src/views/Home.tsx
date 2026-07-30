@@ -11,10 +11,10 @@ export const Home = () => {
     <CanvasView>
       {/* Main H1 - Primary keyword focus */}
       <InfoText
-        title="Montessori Skye View Community Hub"
+        title="Skye View Community Hub"
         subTitle="Homeschool Coop · Farm Animal Time · Community Giveaway"
         subTitleVariant="h2"
-        text="A Las Vegas community hub whose first program is a Montessori homeschool parent cooperative for Pre-K through 5th grade — where families are REQUIRED to actively participate — alongside Farm Animal Time drop-in visits and a resident giveaway swap."
+        text="A Las Vegas community hub whose first program is a homeschool parent cooperative for Pre-K through 5th grade — where families are REQUIRED to actively participate — alongside Farm Animal Time drop-in visits and a resident giveaway swap."
         titleVariant="h1"
         spacing="lg"
         containerVariant="hero"

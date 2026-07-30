@@ -13,8 +13,8 @@ export const registrationPageContent = {
   registerHereLabel: 'Register here',
   processTitle: '🎯 Coop Membership Process',
   processDescription:
-    'Our coop membership process is designed to be family-friendly and efficient. We work closely with each family to ensure a smooth transition into our Montessori cooperative community.',
+    'Our coop membership process is designed to be family-friendly and efficient. We work closely with each family to ensure a smooth transition into our cooperative community.',
   joinTitle: '🌟 Ready to Join Our Cooperative?',
   joinDescription:
-    "We're excited to welcome your family to the Montessori Skye View Community Hub cooperative! Contact us today to begin registration and secure your child's spot in our nurturing learning environment.",
+    "We're excited to welcome your family to the Skye View Community Hub cooperative! Contact us today to begin registration and secure your child's spot in our nurturing learning environment.",
 };

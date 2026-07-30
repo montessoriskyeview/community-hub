@@ -147,7 +147,7 @@ export const AppBar = () => {
                 e.target.style.outline = 'none';
               }}
             >
-              Montessori Skye View
+              Skye View
             </Link>
           </Typography>
           <Box

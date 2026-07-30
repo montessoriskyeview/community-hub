@@ -104,7 +104,7 @@ export const PhoneContact = ({
           ...sx,
         }}
         className={className}
-        aria-label="Call Montessori Skye View"
+        aria-label="Call Skye View"
       >
         {content}
       </Link>
@@ -121,7 +121,7 @@ export const PhoneContact = ({
         ...sx,
       }}
       className={className}
-      aria-label="Call Montessori Skye View"
+      aria-label="Call Skye View"
     >
       {content}
     </Link>

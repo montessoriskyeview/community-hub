@@ -2,7 +2,7 @@ import { coopLinks } from '../components/shared/resourceUtils';
 
 export const donationPolicy = {
   legalStatus:
-    'Montessori Skye View is transitioning to a 501(c)(3) nonprofit model.',
+    'Skye View is transitioning to a 501(c)(3) nonprofit model.',
   familyParticipation: {
     hoursPerSemester: 20,
     hoursPerYear: 40,

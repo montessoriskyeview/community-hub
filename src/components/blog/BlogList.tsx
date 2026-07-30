@@ -281,10 +281,10 @@ const BlogList: React.FC<IBlogListProps> = ({
     <BlogListContainer>
       <HeaderSection>
         <Typography variant="h3" component="h1" sx={{ mb: 2, fontWeight: 700 }}>
-          Montessori Insights & Resources
+          Learning Insights & Resources
         </Typography>
         <Typography variant="h6" color="text.secondary" sx={{ mb: 3 }}>
-          Discover expert insights, practical tips, and Montessori wisdom for
+          Discover expert insights, practical tips, and cooperative wisdom for
           your child's development
         </Typography>
       </HeaderSection>

@@ -34,7 +34,7 @@ describe('Conversion Tracking Tests', () => {
     it('should track email conversion with correct parameters', () => {
       render(React.createElement(EmailContact));
       const link = screen.getByRole('link', {
-        name: /email montessori skye view/i,
+        name: /email skye view/i,
       });
 
       fireEvent.click(link);
@@ -52,7 +52,7 @@ describe('Conversion Tracking Tests', () => {
     it('should track email conversion only once per click', () => {
       render(React.createElement(EmailContact));
       const link = screen.getByRole('link', {
-        name: /email montessori skye view/i,
+        name: /email skye view/i,
       });
 
       fireEvent.click(link);
@@ -84,7 +84,7 @@ describe('Conversion Tracking Tests', () => {
     it('should track phone conversion with correct parameters', () => {
       render(React.createElement(PhoneContact));
       const link = screen.getByRole('link', {
-        name: /call montessori skye view/i,
+        name: /call skye view/i,
       });
 
       fireEvent.click(link);
@@ -100,7 +100,7 @@ describe('Conversion Tracking Tests', () => {
     it('should track phone conversion only once per click', () => {
       render(React.createElement(PhoneContact));
       const link = screen.getByRole('link', {
-        name: /call montessori skye view/i,
+        name: /call skye view/i,
       });
 
       fireEvent.click(link);
@@ -325,13 +325,13 @@ describe('Conversion Tracking Tests', () => {
 
       // Click email contact
       const emailLink = screen.getByRole('link', {
-        name: /email montessori skye view/i,
+        name: /email skye view/i,
       });
       fireEvent.click(emailLink);
 
       // Click phone contact
       const phoneLink = screen.getByRole('link', {
-        name: /call montessori skye view/i,
+        name: /call skye view/i,
       });
       fireEvent.click(phoneLink);
 

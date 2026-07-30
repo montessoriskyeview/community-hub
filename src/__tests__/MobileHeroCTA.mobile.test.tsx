@@ -8,7 +8,7 @@ jest.mock('../components/shared/EmailContact', () => ({
   EmailContact: ({ children, ...props }: any) => (
     <a
       href="mailto:test@example.com"
-      aria-label="Email Montessori Skye View"
+      aria-label="Email skye view"
       {...props}
     >
       {children}
@@ -18,7 +18,7 @@ jest.mock('../components/shared/EmailContact', () => ({
 
 jest.mock('../components/shared/PhoneContact', () => ({
   PhoneContact: ({ children, ...props }: any) => (
-    <a href="tel:+1234567890" aria-label="Call Montessori Skye View" {...props}>
+    <a href="tel:+1234567890" aria-label="Call skye view" {...props}>
       {children}
     </a>
   ),
@@ -166,11 +166,11 @@ describe('MobileHeroCTA', () => {
 
       expect(callButton).toHaveAttribute(
         'aria-label',
-        'Call Montessori Skye View'
+        'Call skye view'
       );
       expect(emailButton).toHaveAttribute(
         'aria-label',
-        'Email Montessori Skye View'
+        'Email skye view'
       );
     });
   });

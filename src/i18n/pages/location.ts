@@ -6,7 +6,7 @@ export const locationContent = {
   modelDescriptionPrimary:
     'Due to harassment from certain community members, we have transitioned from a single dedicated facility to a flexible, parent-coordinated location model. This change has actually strengthened our cooperative community and provides several benefits for our families.',
   modelDescriptionSecondary:
-    'Our learning activities now take place in various safe, welcoming locations coordinated by our parent members. This distributed approach allows us to continue providing exceptional Montessori education while maintaining the safety and privacy of our cooperative community.',
+    'Our learning activities now take place in various safe, welcoming locations coordinated by our parent members. This distributed approach allows us to continue providing exceptional child-centered education while maintaining the safety and privacy of our cooperative community.',
   benefitsTitle: '🌟 Benefits of Our Distributed Location Model',
   benefitsItems: [
     'Enhanced safety and privacy for our families and children',

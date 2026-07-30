@@ -37,7 +37,7 @@ export const Accessibility = () => {
             fontWeight: 500,
           }}
         >
-          Montessori Skye View Community Hub is committed to ensuring digital
+          Skye View Community Hub is committed to ensuring digital
           accessibility for people with disabilities.
         </Typography>
       </ContentContainer>
