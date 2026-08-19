@@ -1,8 +1,17 @@
-import { Box, Container, Stack, IconButton, Collapse } from '@mui/material';
-import { EnrollmentButtons } from './EnrollmentButtons';
 import { useState } from 'react';
+import {
+  Box,
+  Button,
+  Collapse,
+  Container,
+  IconButton,
+  Stack,
+} from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
+import { Link as RouterLink } from 'react-router-dom';
+
+import { EnrollmentButtons } from './EnrollmentButtons';
 import { EmailContact } from './EmailContact';
 import { PhoneContact } from './PhoneContact';
 
@@ -159,6 +168,8 @@ export const MobileHeroCTA = () => {
           <Stack
             direction="row"
             spacing={2}
+            useFlexGap
+            flexWrap="wrap"
             justifyContent="center"
             sx={{ mt: 2 }}
           >
@@ -194,6 +205,24 @@ export const MobileHeroCTA = () => {
             >
               ✉️ Email
             </EmailContact>
+            <Button
+              component={RouterLink}
+              to="/family-business-partners"
+              variant="outlined"
+              sx={{
+                minWidth: 0,
+                px: 2,
+                py: 1,
+                fontSize: 'var(--text-base)',
+                borderRadius: 'var(--radius-full)',
+                textTransform: 'none',
+                fontWeight: 600,
+                lineHeight: 1.2,
+                minHeight: 44,
+              }}
+            >
+              Become a Sponsor
+            </Button>
           </Stack>
         </Container>
       </Collapse>

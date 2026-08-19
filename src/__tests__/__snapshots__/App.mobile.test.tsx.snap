@@ -92,6 +92,185 @@ exports[`App Component - Mobile Experience Mobile Layout and Responsiveness snap
                 </a>
               </div>
             </div>
+            <div
+              class="MuiBox-root css-12recp6"
+              spacing="lg"
+              style="text-align: center; box-shadow: var(--shadow-lg);"
+              variant="card"
+            >
+              <h2
+                class="MuiTypography-root MuiTypography-h2 css-18rb5gt-MuiTypography-root"
+              >
+                Montessori Family Business Partners
+              </h2>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-ub572g-MuiTypography-root"
+              >
+                We are proud to recognize family-owned businesses within our Montessori community, along with community partners who support our cooperative.
+              </p>
+              <a
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1ocupwd-MuiTypography-root-MuiLink-root"
+                href="/family-business-partners"
+              >
+                Learn about Family Business Partners
+              </a>
+              <div
+                class="MuiStack-root css-8mcjw0-MuiStack-root"
+              >
+                <section
+                  aria-labelledby="home-partner-community-recognition-member"
+                  class="MuiBox-root css-1sx3blu"
+                >
+                  <div
+                    class="MuiStack-root css-4ekims-MuiStack-root"
+                  >
+                    <h3
+                      class="MuiTypography-root MuiTypography-h3 css-1kcuxz5-MuiTypography-root"
+                      id="home-partner-community-recognition-member"
+                    >
+                      Community Recognition Member
+                    </h3>
+                    <div
+                      class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSuccess MuiChip-filledSuccess css-e35ix5-MuiChip-root"
+                    >
+                      <span
+                        class="MuiChip-label MuiChip-labelMedium css-1dybbl5-MuiChip-label"
+                      >
+                        FREE
+                      </span>
+                    </div>
+                  </div>
+                  <a
+                    class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary css-1m692h4-MuiButtonBase-root-MuiButton-root"
+                    href="https://forms.gle/FoAWDtSS12kFHWGN7"
+                    rel="noopener noreferrer"
+                    tabindex="0"
+                    target="_blank"
+                  >
+                    Become our first 
+                    Community Recognition Member
+                     sponsor!
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </a>
+                </section>
+                <section
+                  aria-labelledby="home-partner-community-partner"
+                  class="MuiBox-root css-1sx3blu"
+                >
+                  <div
+                    class="MuiStack-root css-4ekims-MuiStack-root"
+                  >
+                    <h3
+                      class="MuiTypography-root MuiTypography-h3 css-1kcuxz5-MuiTypography-root"
+                      id="home-partner-community-partner"
+                    >
+                      Community Partner
+                    </h3>
+                    <div
+                      class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorPrimary MuiChip-filledPrimary css-gzw9pi-MuiChip-root"
+                    >
+                      <span
+                        class="MuiChip-label MuiChip-labelMedium css-1dybbl5-MuiChip-label"
+                      >
+                        BRONZE
+                      </span>
+                    </div>
+                  </div>
+                  <a
+                    class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary css-1m692h4-MuiButtonBase-root-MuiButton-root"
+                    href="https://forms.gle/FoAWDtSS12kFHWGN7"
+                    rel="noopener noreferrer"
+                    tabindex="0"
+                    target="_blank"
+                  >
+                    Become our first 
+                    Community Partner
+                     sponsor!
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </a>
+                </section>
+                <section
+                  aria-labelledby="home-partner-family-partner"
+                  class="MuiBox-root css-1sx3blu"
+                >
+                  <div
+                    class="MuiStack-root css-4ekims-MuiStack-root"
+                  >
+                    <h3
+                      class="MuiTypography-root MuiTypography-h3 css-1kcuxz5-MuiTypography-root"
+                      id="home-partner-family-partner"
+                    >
+                      Family Partner
+                    </h3>
+                    <div
+                      class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorPrimary MuiChip-filledPrimary css-gzw9pi-MuiChip-root"
+                    >
+                      <span
+                        class="MuiChip-label MuiChip-labelMedium css-1dybbl5-MuiChip-label"
+                      >
+                        SILVER
+                      </span>
+                    </div>
+                  </div>
+                  <a
+                    class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary css-1m692h4-MuiButtonBase-root-MuiButton-root"
+                    href="https://forms.gle/FoAWDtSS12kFHWGN7"
+                    rel="noopener noreferrer"
+                    tabindex="0"
+                    target="_blank"
+                  >
+                    Become our first 
+                    Family Partner
+                     sponsor!
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </a>
+                </section>
+                <section
+                  aria-labelledby="home-partner-founding-partner"
+                  class="MuiBox-root css-1sx3blu"
+                >
+                  <div
+                    class="MuiStack-root css-4ekims-MuiStack-root"
+                  >
+                    <h3
+                      class="MuiTypography-root MuiTypography-h3 css-1kcuxz5-MuiTypography-root"
+                      id="home-partner-founding-partner"
+                    >
+                      Founding Partner
+                    </h3>
+                    <div
+                      class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorPrimary MuiChip-filledPrimary css-gzw9pi-MuiChip-root"
+                    >
+                      <span
+                        class="MuiChip-label MuiChip-labelMedium css-1dybbl5-MuiChip-label"
+                      >
+                        GOLD
+                      </span>
+                    </div>
+                  </div>
+                  <a
+                    class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary css-1m692h4-MuiButtonBase-root-MuiButton-root"
+                    href="https://forms.gle/FoAWDtSS12kFHWGN7"
+                    rel="noopener noreferrer"
+                    tabindex="0"
+                    target="_blank"
+                  >
+                    Become our first 
+                    Founding Partner
+                     sponsor!
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </a>
+                </section>
+              </div>
+            </div>
           </div>
         </div>
         <div
@@ -312,6 +491,16 @@ exports[`App Component - Mobile Experience Mobile Layout and Responsiveness snap
           <div
             class="MuiStack-root css-pex525-MuiStack-root"
           >
+            <a
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-10l2un7-MuiButtonBase-root-MuiButton-root"
+              href="/family-business-partners"
+              tabindex="0"
+            >
+              Family Business Partners
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </a>
             <a
               class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-10l2un7-MuiButtonBase-root-MuiButton-root"
               href="/parent-involvement"

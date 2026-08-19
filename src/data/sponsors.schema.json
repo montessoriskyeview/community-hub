@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://montessoriskyeview.com/schemas/sponsors.schema.json",
+  "title": "Montessori Family Business Partners",
+  "description": "Sponsor acknowledgement records displayed by the Skye View Community Hub website.",
+  "type": "array",
+  "items": {
+    "$ref": "#/$defs/sponsor"
+  },
+  "$defs": {
+    "sponsor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "businessName",
+        "tier",
+        "category",
+        "description",
+        "featured",
+        "sortOrder"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "businessName": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "tier": {
+          "enum": [
+            "community-recognition-member",
+            "community-partner",
+            "family-partner",
+            "founding-partner"
+          ]
+        },
+        "category": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 60
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 240
+        },
+        "websiteUrl": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "logoUrl": {
+          "type": "string",
+          "pattern": "^/images/sponsors/[A-Za-z0-9._-]+$"
+        },
+        "address": {
+          "type": "string",
+          "maxLength": 160
+        },
+        "phone": {
+          "type": "string",
+          "maxLength": 30
+        },
+        "socialLinks": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "facebook": {
+              "type": "string",
+              "format": "uri",
+              "pattern": "^https://"
+            },
+            "instagram": {
+              "type": "string",
+              "format": "uri",
+              "pattern": "^https://"
+            },
+            "linkedin": {
+              "type": "string",
+              "format": "uri",
+              "pattern": "^https://"
+            }
+          }
+        },
+        "featured": {
+          "type": "boolean"
+        },
+        "sortOrder": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "acknowledgementStartDate": {
+          "type": "string",
+          "format": "date"
+        },
+        "acknowledgementEndDate": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    }
+  }
+}

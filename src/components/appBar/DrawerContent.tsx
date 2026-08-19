@@ -25,6 +25,7 @@ import SchoolIcon from '@mui/icons-material/School';
 import GroupIcon from '@mui/icons-material/Group';
 import PetsIcon from '@mui/icons-material/Pets';
 import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
+import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import { OverridableComponent } from '@mui/material/OverridableComponent';
 import { SvgIconTypeMap } from '@mui/material';
 import { useEffect, useRef, useState } from 'react';
@@ -291,6 +292,7 @@ export const NAVBAR_ITEMS: NavbarItem[] = [
       schedule: ScheduleIcon,
       farmAnimalTime: PetsIcon,
       giveaway: VolunteerActivismIcon,
+      familyBusinessPartners: BusinessCenterIcon,
       location: LocationOnIcon,
       enrollments: SchoolIcon,
       teachers: GroupIcon,

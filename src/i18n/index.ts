@@ -1,6 +1,7 @@
 export * from './entities/enrollments';
 export * from './entities/teachers';
 export * from './pages/error';
+export * from './pages/familyBusinessPartners';
 export * from './pages/farmAnimalTime';
 export * from './pages/giveaway';
 export * from './pages/location';

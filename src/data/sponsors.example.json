@@ -1,0 +1,20 @@
+[
+  {
+    "id": "desert-bloom-accounting",
+    "businessName": "Desert Bloom Accounting",
+    "tier": "community-partner",
+    "category": "Accounting",
+    "description": "Bookkeeping and tax preparation services for individuals and small businesses.",
+    "websiteUrl": "https://example.com",
+    "logoUrl": "/images/sponsors/desert-bloom-accounting.webp",
+    "address": "123 Example Street, Las Vegas, NV 89101",
+    "phone": "702-555-0100",
+    "socialLinks": {
+      "instagram": "https://instagram.com/example"
+    },
+    "featured": false,
+    "sortOrder": 10,
+    "acknowledgementStartDate": "2026-09-01",
+    "acknowledgementEndDate": "2027-08-31"
+  }
+]

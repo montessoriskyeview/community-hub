@@ -30,6 +30,20 @@ export const donationPolicy = {
     earlyDeadlineLabel: 'Before August 31st',
     standardDeadlineLabel: 'After August 31st',
   },
+  familyBusinessPartners: {
+    communityRecognitionMember: {
+      suggestedAnnualContribution: 'No contribution required',
+    },
+    communityPartner: {
+      suggestedAnnualContribution: '$250–$500',
+    },
+    familyPartner: {
+      suggestedAnnualContribution: '$1,000',
+    },
+    foundingPartner: {
+      suggestedAnnualContribution: '$2,500',
+    },
+  },
   meals: {
     suggestedDonationPerDay: '$3',
   },

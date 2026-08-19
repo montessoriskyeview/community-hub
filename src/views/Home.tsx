@@ -5,6 +5,7 @@ import { CanvasView } from '../components/shared/Canvas/CanvasView';
 import { ContentContainer } from '../components/shared/ContentContainer';
 import { Typography } from '../components/shared/Typography';
 import { Box } from '../components/shared/Box';
+import SponsorDirectory from '../components/family-business-partners/SponsorDirectory';
 
 export const Home = () => {
   return (
@@ -109,6 +110,63 @@ export const Home = () => {
             Community Giveaway
           </MuiLink>
         </Box>
+      </ContentContainer>
+
+      <ContentContainer
+        variant="card"
+        spacing="lg"
+        style={{
+          textAlign: 'center',
+          background: 'var(--white)',
+          border: '3px solid var(--secondary-purple)',
+          boxShadow: 'var(--shadow-lg)',
+        }}
+      >
+        <Typography
+          variant="h2"
+          component="h2"
+          sx={{
+            color: 'var(--text-dark)',
+            marginBottom: 'var(--spacing-lg)',
+            fontWeight: 700,
+            fontSize: { xs: 'var(--text-2xl)', md: 'var(--text-3xl)' },
+          }}
+        >
+          Montessori Family Business Partners
+        </Typography>
+        <Typography
+          variant="body1"
+          sx={{
+            color: 'var(--text-dark)',
+            fontSize: 'var(--text-lg)',
+            lineHeight: 'var(--leading-relaxed)',
+            marginBottom: 'var(--spacing-lg)',
+          }}
+        >
+          We are proud to recognize family-owned businesses within our
+          Montessori community, along with community partners who support our
+          cooperative.
+        </Typography>
+        <MuiLink
+          component={RouterLink}
+          to="/family-business-partners"
+          sx={{
+            color: 'var(--primary-blue)',
+            fontWeight: 700,
+            fontSize: 'var(--text-lg)',
+            textDecoration: 'underline',
+            minHeight: 44,
+            display: 'inline-flex',
+            alignItems: 'center',
+            marginBottom: 'var(--spacing-xl)',
+          }}
+        >
+          Learn about Family Business Partners
+        </MuiLink>
+        <SponsorDirectory
+          showDetails={false}
+          headingIdPrefix="home-partner"
+        />
       </ContentContainer>
     </CanvasView>
   );

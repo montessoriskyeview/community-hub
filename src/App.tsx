@@ -107,6 +107,9 @@ const Giveaway = React.lazy(() =>
     default: module.Giveaway,
   }))
 );
+const FamilyBusinessPartners = React.lazy(
+  () => import('./views/FamilyBusinessPartners')
+);
 
 // Loading component optimized for mobile users
 const LoadingSpinner = () => (
@@ -199,6 +202,9 @@ const SEOUpdater: React.FC = () => {
       break;
     case '/giveaway':
       seoConfig = ROUTE_SEO_CONFIGS.giveaway;
+      break;
+    case '/family-business-partners':
+      seoConfig = ROUTE_SEO_CONFIGS.familyBusinessPartners;
       break;
     default:
       seoConfig = ROUTE_SEO_CONFIGS.home;
@@ -398,6 +404,10 @@ function App() {
                 <Route path="/teachers" element={<Teachers />} />
                 <Route path="/farm-animal-time" element={<FarmAnimalTime />} />
                 <Route path="/giveaway" element={<Giveaway />} />
+                <Route
+                  path="/family-business-partners"
+                  element={<FamilyBusinessPartners />}
+                />
                 <Route path="*" element={<ErrorPage />} />
               </Routes>
             </Suspense>

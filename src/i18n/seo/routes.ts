@@ -146,4 +146,13 @@ export const ROUTE_SEO_CONFIGS: Record<string, RouteSEOConfig> = {
       'community giveaway Las Vegas, donation pickup Las Vegas, storage-fee thrift, resident giveaway swap',
     url: '/giveaway',
   },
+  familyBusinessPartners: {
+    title:
+      'Montessori Family Business Partners | Skye View Community Hub',
+    description:
+      'Meet family-owned businesses and community partners acknowledged for supporting the Skye View Montessori cooperative in Las Vegas.',
+    keywords:
+      'Montessori family businesses Las Vegas, community partners, cooperative sponsors, Skye View supporters',
+    url: '/family-business-partners',
+  },
 };

@@ -6,6 +6,7 @@ export type NavigationItemKey =
   | 'schedule'
   | 'farmAnimalTime'
   | 'giveaway'
+  | 'familyBusinessPartners'
   | 'location'
   | 'enrollments'
   | 'teachers'
@@ -56,6 +57,11 @@ export const PRIMARY_NAVIGATION_ITEMS: NavigationItemContent[] = [
 ];
 
 export const FOOTER_SECONDARY_NAVIGATION_ITEMS: NavigationItemContent[] = [
+  {
+    key: 'familyBusinessPartners',
+    text: 'Family Business Partners',
+    path: '/family-business-partners',
+  },
   {
     key: 'parentInvolvement',
     text: 'Parent Involvement',

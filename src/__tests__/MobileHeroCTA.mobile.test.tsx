@@ -1,7 +1,11 @@
 import React from 'react';
 import { screen, fireEvent, waitFor } from '@testing-library/react';
-import { render } from '../utils/testUtils';
+import { MemoryRouter } from 'react-router-dom';
+import { render as testingRender } from '../utils/testUtils';
 import { MobileHeroCTA } from '../components/shared/MobileHeroCTA';
+
+const render = (element: React.ReactElement) =>
+  testingRender(<MemoryRouter>{element}</MemoryRouter>);
 
 // Mock the contact components
 jest.mock('../components/shared/EmailContact', () => ({
@@ -113,6 +117,9 @@ describe('MobileHeroCTA', () => {
       });
 
       expect(screen.getByRole('link', { name: /email/i })).toBeInTheDocument();
+      expect(
+        screen.getByRole('link', { name: /become a sponsor/i })
+      ).toHaveAttribute('href', '/family-business-partners');
     });
   });
 
