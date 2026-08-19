@@ -99,7 +99,7 @@ exports[`App Component - Mobile Experience Mobile Layout and Responsiveness snap
               variant="card"
             >
               <h2
-                class="MuiTypography-root MuiTypography-h2 css-18rb5gt-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h2 css-8xltmq-MuiTypography-root"
               >
                 Montessori Family Business Partners
               </h2>
@@ -130,15 +130,16 @@ exports[`App Component - Mobile Experience Mobile Layout and Responsiveness snap
                     >
                       Community Recognition Member
                     </h3>
-                    <div
-                      class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSuccess MuiChip-filledSuccess css-e35ix5-MuiChip-root"
+                    <span
+                      aria-label="Community Recognition Member FREE acknowledgement level"
+                      class="sponsor-tier-badge sponsor-tier-badge--free"
                     >
                       <span
-                        class="MuiChip-label MuiChip-labelMedium css-1dybbl5-MuiChip-label"
+                        class="sponsor-tier-badge__label"
                       >
                         FREE
                       </span>
-                    </div>
+                    </span>
                   </div>
                   <a
                     class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary css-1m692h4-MuiButtonBase-root-MuiButton-root"
@@ -168,15 +169,16 @@ exports[`App Component - Mobile Experience Mobile Layout and Responsiveness snap
                     >
                       Community Partner
                     </h3>
-                    <div
-                      class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorPrimary MuiChip-filledPrimary css-gzw9pi-MuiChip-root"
+                    <span
+                      aria-label="Community Partner BRONZE acknowledgement level"
+                      class="sponsor-tier-badge sponsor-tier-badge--bronze"
                     >
                       <span
-                        class="MuiChip-label MuiChip-labelMedium css-1dybbl5-MuiChip-label"
+                        class="sponsor-tier-badge__label"
                       >
                         BRONZE
                       </span>
-                    </div>
+                    </span>
                   </div>
                   <a
                     class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary css-1m692h4-MuiButtonBase-root-MuiButton-root"
@@ -206,15 +208,16 @@ exports[`App Component - Mobile Experience Mobile Layout and Responsiveness snap
                     >
                       Family Partner
                     </h3>
-                    <div
-                      class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorPrimary MuiChip-filledPrimary css-gzw9pi-MuiChip-root"
+                    <span
+                      aria-label="Family Partner SILVER acknowledgement level"
+                      class="sponsor-tier-badge sponsor-tier-badge--silver"
                     >
                       <span
-                        class="MuiChip-label MuiChip-labelMedium css-1dybbl5-MuiChip-label"
+                        class="sponsor-tier-badge__label"
                       >
                         SILVER
                       </span>
-                    </div>
+                    </span>
                   </div>
                   <a
                     class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary css-1m692h4-MuiButtonBase-root-MuiButton-root"
@@ -244,15 +247,16 @@ exports[`App Component - Mobile Experience Mobile Layout and Responsiveness snap
                     >
                       Founding Partner
                     </h3>
-                    <div
-                      class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorPrimary MuiChip-filledPrimary css-gzw9pi-MuiChip-root"
+                    <span
+                      aria-label="Founding Partner GOLD acknowledgement level"
+                      class="sponsor-tier-badge sponsor-tier-badge--gold"
                     >
                       <span
-                        class="MuiChip-label MuiChip-labelMedium css-1dybbl5-MuiChip-label"
+                        class="sponsor-tier-badge__label"
                       >
                         GOLD
                       </span>
-                    </div>
+                    </span>
                   </div>
                   <a
                     class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary css-1m692h4-MuiButtonBase-root-MuiButton-root"
@@ -328,6 +332,13 @@ exports[`App Component - Mobile Experience Mobile Layout and Responsiveness snap
               style="background-color: rgb(31, 41, 55); color: rgb(255, 255, 255); border-radius: var(--radius-lg); box-shadow: var(--shadow-lg); text-align: center; width: 100%; max-width: 600px; align-self: center; justify-self: center; align-items: center; justify-content: center; margin: 0px auto; position: relative; z-index: 0;"
               variant="default"
             >
+              <a
+                aria-label="Family Business Partners"
+                href="/family-business-partners"
+                style="color: rgb(255, 255, 255); text-decoration: none; font-weight: 600; border-radius: var(--radius-sm); display: inline-block; min-height: 48px; min-width: 200px; line-height: 1.2; box-shadow: var(--shadow-md);"
+              >
+                Family Business Partners
+              </a>
               <div
                 class="MuiBox-root css-n88plx"
               >

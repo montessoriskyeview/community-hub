@@ -21,3 +21,5 @@ export const getSponsorsByTier = (tier: SponsorTier): ISponsor[] =>
 
 export const getFeaturedSponsors = (): ISponsor[] =>
   SPONSORS.filter(sponsor => sponsor.featured).sort(byDisplayOrder);
+
+export const hasSponsors = (): boolean => SPONSORS.length > 0;

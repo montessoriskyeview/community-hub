@@ -13,6 +13,7 @@ import { CanvasView } from '../components/shared/Canvas/CanvasView';
 import { ContentContainer } from '../components/shared/ContentContainer';
 import { Typography } from '../components/shared/Typography';
 import { SPONSOR_FORM_URL } from '../config/sponsorProgram';
+import { hasSponsors } from '../data/sponsors';
 import { familyBusinessPartnersPageContent as content } from '../i18n/pages/familyBusinessPartners';
 
 const cardStyle = {
@@ -22,7 +23,34 @@ const cardStyle = {
   boxShadow: 'var(--shadow-lg)',
 };
 
+const sponsorCtaButtonSx = {
+  alignSelf: 'center',
+  minHeight: 44,
+  px: 4,
+  py: 2,
+  fontSize: 'var(--text-base)',
+};
+
+const SponsorCtaButton = ({
+  color = 'primary',
+}: {
+  color?: 'primary' | 'success';
+}) => (
+  <Button
+    href={SPONSOR_FORM_URL}
+    target="_blank"
+    rel="noopener noreferrer"
+    variant="contained"
+    color={color}
+    sx={sponsorCtaButtonSx}
+  >
+    {content.hero.cta}
+  </Button>
+);
+
 const FamilyBusinessPartners = () => {
+  const showSponsors = hasSponsors();
+
   return (
     <CanvasView>
       <ContentContainer
@@ -41,23 +69,40 @@ const FamilyBusinessPartners = () => {
         >
           {content.hero.subTitle}
         </Typography>
-        <Button
-          href={SPONSOR_FORM_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          variant="contained"
-          color="success"
-          sx={{
-            alignSelf: 'center',
-            minHeight: 44,
-            px: 4,
-            py: 2,
-            fontSize: 'var(--text-base)',
+        {!showSponsors && <SponsorCtaButton color="success" />}
+      </ContentContainer>
+
+      {showSponsors && (
+        <ContentContainer
+          variant="card"
+          spacing="lg"
+          style={{ ...cardStyle, borderColor: 'var(--secondary-purple)' }}
+        >
+          <Typography variant="h2" component="h2">
+            {content.directory.title}
+          </Typography>
+          <Typography variant="body1">{content.directory.intro}</Typography>
+          <SponsorDirectory
+            showDetails={false}
+            includeEmptyTiers={false}
+            headingIdPrefix="sponsor-listing"
+          />
+        </ContentContainer>
+      )}
+
+      {showSponsors && (
+        <ContentContainer
+          variant="card"
+          spacing="lg"
+          style={{
+            ...cardStyle,
+            textAlign: 'center',
+            borderColor: 'var(--primary-blue)',
           }}
         >
-          {content.hero.cta}
-        </Button>
-      </ContentContainer>
+          <SponsorCtaButton color="success" />
+        </ContentContainer>
+      )}
 
       <ContentContainer variant="card" spacing="lg" style={cardStyle}>
         <Typography variant="h2" component="h2">
@@ -121,66 +166,13 @@ const FamilyBusinessPartners = () => {
           {content.levels.title}
         </Typography>
         <Typography variant="body1">{content.levels.intro}</Typography>
-        <Typography variant="body1">{content.directory.intro}</Typography>
-        <SponsorDirectory headingIdPrefix="participation-level" />
-      </ContentContainer>
-
-      <ContentContainer
-        variant="card"
-        spacing="lg"
-        style={{ ...cardStyle, borderColor: 'var(--primary-blue)' }}
-      >
-        <Typography variant="h2" component="h2">
-          {content.acknowledgement.title}
-        </Typography>
-        <Typography variant="body1">
-          {content.acknowledgement.intro}
-        </Typography>
-        <Grid container spacing={4}>
-          <Grid item xs={12} md={6}>
-            <Typography variant="h3" component="h3">
-              {content.acknowledgement.allowedTitle}
-            </Typography>
-            <Box
-              component="ul"
-              sx={{
-                pl: 3,
-                '& li': { mb: 2, lineHeight: 'var(--leading-normal)' },
-              }}
-            >
-              {content.acknowledgement.allowed.map(item => (
-                <li key={item}>{item}</li>
-              ))}
-            </Box>
-          </Grid>
-          <Grid item xs={12} md={6}>
-            <Typography variant="h3" component="h3">
-              {content.acknowledgement.excludedTitle}
-            </Typography>
-            <Box
-              component="ul"
-              sx={{
-                pl: 3,
-                '& li': { mb: 2, lineHeight: 'var(--leading-normal)' },
-              }}
-            >
-              {content.acknowledgement.excluded.map(item => (
-                <li key={item}>{item}</li>
-              ))}
-            </Box>
-          </Grid>
-        </Grid>
-        <Typography
-          variant="body2"
-          sx={{
-            mb: 0,
-            p: 3,
-            backgroundColor: 'var(--light-gray)',
-            borderRadius: 'var(--radius-md)',
-          }}
-        >
-          {content.acknowledgement.disclaimer}
-        </Typography>
+        {!showSponsors && (
+          <Typography variant="body1">{content.directory.intro}</Typography>
+        )}
+        <SponsorDirectory
+          headingIdPrefix="participation-level"
+          showPopulatedListings={!showSponsors}
+        />
       </ContentContainer>
 
       <ContentContainer variant="card" spacing="lg" style={cardStyle}>
@@ -268,16 +260,68 @@ const FamilyBusinessPartners = () => {
           target="_blank"
           rel="noopener noreferrer"
           variant="contained"
-          sx={{
-            alignSelf: 'center',
-            minHeight: 44,
-            px: 4,
-            py: 2,
-            fontSize: 'var(--text-base)',
-          }}
+          sx={sponsorCtaButtonSx}
         >
           {content.finalCta.label}
         </Button>
+      </ContentContainer>
+
+      <ContentContainer
+        variant="card"
+        spacing="lg"
+        style={{ ...cardStyle, borderColor: 'var(--primary-blue)' }}
+      >
+        <Typography variant="h2" component="h2">
+          {content.acknowledgement.title}
+        </Typography>
+        <Typography variant="body1">
+          {content.acknowledgement.intro}
+        </Typography>
+        <Grid container spacing={4}>
+          <Grid item xs={12} md={6}>
+            <Typography variant="h3" component="h3">
+              {content.acknowledgement.allowedTitle}
+            </Typography>
+            <Box
+              component="ul"
+              sx={{
+                pl: 3,
+                '& li': { mb: 2, lineHeight: 'var(--leading-normal)' },
+              }}
+            >
+              {content.acknowledgement.allowed.map(item => (
+                <li key={item}>{item}</li>
+              ))}
+            </Box>
+          </Grid>
+          <Grid item xs={12} md={6}>
+            <Typography variant="h3" component="h3">
+              {content.acknowledgement.excludedTitle}
+            </Typography>
+            <Box
+              component="ul"
+              sx={{
+                pl: 3,
+                '& li': { mb: 2, lineHeight: 'var(--leading-normal)' },
+              }}
+            >
+              {content.acknowledgement.excluded.map(item => (
+                <li key={item}>{item}</li>
+              ))}
+            </Box>
+          </Grid>
+        </Grid>
+        <Typography
+          variant="body2"
+          sx={{
+            mb: 0,
+            p: 3,
+            backgroundColor: 'var(--light-gray)',
+            borderRadius: 'var(--radius-md)',
+          }}
+        >
+          {content.acknowledgement.disclaimer}
+        </Typography>
       </ContentContainer>
     </CanvasView>
   );

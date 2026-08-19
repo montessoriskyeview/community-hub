@@ -40,6 +40,29 @@ describe('Montessori Family Business Partners', () => {
     screen
       .getAllByRole('link', { name: /become a sponsor/i })
       .forEach(link => expect(link).toHaveAttribute('href', SPONSOR_FORM_URL));
+
+    expect(
+      screen.getByRole('link', { name: 'Family Business Partners' })
+    ).toHaveAttribute('href', '/family-business-partners');
+    expect(
+      screen.getAllByRole('heading', {
+        name: /acknowledgement, not advertising/i,
+      })
+    ).toHaveLength(1);
+    expect(screen.queryByText(/compliance review:/i)).not.toBeInTheDocument();
+    expect(
+      screen.getByLabelText(
+        /community recognition member free acknowledgement level/i
+      )
+    ).toBeInTheDocument();
+    expect(
+      screen.getByLabelText(/community partner bronze acknowledgement level/i)
+    ).toBeInTheDocument();
+
+    const headings = screen.getAllByRole('heading', { level: 2 });
+    expect(headings[headings.length - 1]).toHaveTextContent(
+      /acknowledgement, not advertising/i
+    );
   });
 
   test('keeps production sponsor data empty until approved records are added', () => {

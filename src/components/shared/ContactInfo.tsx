@@ -1,3 +1,5 @@
+import { Link as RouterLink } from 'react-router-dom';
+
 import { ContentContainer } from './ContentContainer';
 import { Typography } from './Typography';
 import { EnrollmentButtons } from './EnrollmentButtons';
@@ -31,6 +33,27 @@ export const ContactInfo = () => {
         zIndex: 0, // Changed from 1 to 0 - Lower than MobileHeroCTA's 1400
       }}
     >
+      <RouterLink
+        to="/family-business-partners"
+        aria-label="Family Business Partners"
+        style={{
+          color: '#FFFFFF',
+          textDecoration: 'none',
+          fontWeight: 600,
+          fontSize: 'var(--text-lg)',
+          padding: 'var(--spacing-md) var(--spacing-lg)',
+          borderRadius: 'var(--radius-sm)',
+          backgroundColor: 'var(--primary-green)',
+          display: 'inline-block',
+          margin: '0 auto var(--spacing-lg)',
+          minHeight: 48,
+          minWidth: 200,
+          lineHeight: '1.2',
+          boxShadow: 'var(--shadow-md)',
+        }}
+      >
+        Family Business Partners
+      </RouterLink>
       <EnrollmentButtons
         variant="secondary"
         sx={{

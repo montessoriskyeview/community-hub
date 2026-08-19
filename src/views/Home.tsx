@@ -6,8 +6,11 @@ import { ContentContainer } from '../components/shared/ContentContainer';
 import { Typography } from '../components/shared/Typography';
 import { Box } from '../components/shared/Box';
 import SponsorDirectory from '../components/family-business-partners/SponsorDirectory';
+import { hasSponsors } from '../data/sponsors';
 
 export const Home = () => {
+  const showSponsors = hasSponsors();
+
   return (
     <CanvasView>
       {/* Main H1 - Primary keyword focus */}
@@ -122,11 +125,19 @@ export const Home = () => {
           boxShadow: 'var(--shadow-lg)',
         }}
       >
+        {showSponsors && (
+          <SponsorDirectory
+            showDetails={false}
+            includeEmptyTiers={false}
+            headingIdPrefix="home-partner"
+          />
+        )}
         <Typography
           variant="h2"
           component="h2"
           sx={{
             color: 'var(--text-dark)',
+            marginTop: showSponsors ? 'var(--spacing-2xl)' : 0,
             marginBottom: 'var(--spacing-lg)',
             fontWeight: 700,
             fontSize: { xs: 'var(--text-2xl)', md: 'var(--text-3xl)' },
@@ -165,7 +176,8 @@ export const Home = () => {
         </MuiLink>
         <SponsorDirectory
           showDetails={false}
-          headingIdPrefix="home-partner"
+          includePopulatedTiers={!showSponsors}
+          headingIdPrefix={showSponsors ? 'home-partner-cta' : 'home-partner'}
         />
       </ContentContainer>
     </CanvasView>

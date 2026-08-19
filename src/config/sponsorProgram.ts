@@ -34,7 +34,7 @@ export const SPONSOR_TIERS: ISponsorTierConfig[] = [
       'Parents or guardians of enrolled children who actively participate in the cooperative.',
     acknowledgements: [
       'Business listing on the partner page',
-      'Business name, logo, website, category, and neutral description',
+      'Business name, website, category, and neutral description',
     ],
     complianceExplanation:
       'No contribution is required at this level. The listing still follows the same identification-only standard used for paid acknowledgements.',

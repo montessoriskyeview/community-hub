@@ -125,6 +125,71 @@ Do not publish:
 A single message containing both acknowledgement and advertising is treated as
 advertising. Remove the promotional portion before publication.
 
+## Website directory design
+
+### Sample layout
+
+The public page presents one section for each participation level in this order:
+
+1. Community Recognition Member.
+2. Community Partner.
+3. Family Partner.
+4. Founding Partner.
+
+Each section contains its bracket, suggested annual contribution, eligibility,
+acknowledgements, compliance explanation, and sponsor cards. When a section has
+no records, it displays a “Become our first [level] sponsor!” form link.
+
+Each sponsor card displays the business name, logo when supplied, category,
+website, neutral description, and acknowledgement level. Approved address,
+telephone, and social links may also appear. Featured records sort before other
+records within the same level; `sortOrder` then controls the remaining order.
+
+### Accessibility recommendations
+
+- Maintain one page heading followed by logical section and card headings.
+- Give every logo meaningful alternative text; use text initials when no logo
+  is supplied.
+- Label external links with the business name and warn screen-reader users when
+  a link opens a new tab.
+- Keep links and buttons at least 44 by 44 pixels with visible keyboard focus.
+- Never use color alone to identify a participation level; show the level name
+  and bracket as text.
+- Preserve at least WCAG 2.1 AA contrast and support 200% zoom.
+
+### Mobile layout recommendations
+
+- Use one sponsor-card column on narrow screens and two columns when space
+  permits.
+- Allow long business names, descriptions, and form links to wrap.
+- Keep 24 pixels or more of card padding and spacing between interactive
+  elements.
+- Let the Call, Email, and Become a Sponsor controls wrap without shrinking
+  below the minimum touch target.
+- Test at 360, 375, and 390 pixel widths and with mobile screen readers.
+
+## JSON-driven sponsor template
+
+`src/data/sponsors.schema.json` is the complete JSON Schema and
+`src/data/sponsors.example.json` is a non-production example record.
+`src/data/sponsors.json` is the only production list.
+
+The rendering flow is:
+
+1. `src/data/sponsors.ts` imports the JSON and exposes typed tier and featured
+   queries.
+2. `SponsorDirectory.tsx` iterates through the configured participation levels.
+3. `SponsorTierSection.tsx` requests records for its level and renders either a
+   card grid or the first-sponsor form link.
+4. `SponsorCard.tsx` renders only approved identification fields.
+5. `FamilyBusinessPartners.tsx` and the homepage consume the same directory
+   components, so one JSON update changes both locations.
+
+To add a sponsor, copy the object shape from the example, replace every value
+with reviewed information, use a unique kebab-case `id`, place the approved
+logo in `public/images/sponsors/`, and add the object to the production array.
+Do not add a field that is absent from the schema.
+
 ## Onboarding process
 
 1. The business submits the Google Form and chooses a participation level.

@@ -1,4 +1,4 @@
-import { Box, Button, Chip, Grid, Stack } from '@mui/material';
+import { Box, Button, Grid, Stack } from '@mui/material';
 
 import {
   ISponsorTierConfig,
@@ -7,11 +7,14 @@ import {
 import { ISponsor } from '../../types/sponsor';
 import { Typography } from '../shared/Typography';
 import SponsorCard from './SponsorCard';
+import SponsorTierBadge from './SponsorTierBadge';
 
 interface ISponsorTierSectionProps {
   tier: ISponsorTierConfig;
   sponsors: ISponsor[];
   showDetails?: boolean;
+  showListings?: boolean;
+  showPopulatedListings?: boolean;
   headingIdPrefix?: string;
 }
 
@@ -19,9 +22,13 @@ const SponsorTierSection = ({
   tier,
   sponsors,
   showDetails = true,
+  showListings = true,
+  showPopulatedListings = true,
   headingIdPrefix = 'partner-directory',
 }: ISponsorTierSectionProps) => {
   const headingId = `${headingIdPrefix}-${tier.id}`;
+  const shouldShowListings =
+    showListings && (sponsors.length === 0 || showPopulatedListings);
 
   return (
     <Box
@@ -44,11 +51,7 @@ const SponsorTierSection = ({
         <Typography id={headingId} variant="h3" component="h3" sx={{ mb: 0 }}>
           {tier.name}
         </Typography>
-        <Chip
-          label={tier.bracket}
-          color={tier.bracket === 'FREE' ? 'success' : 'primary'}
-          sx={{ fontSize: 'var(--text-sm)', fontWeight: 700 }}
-        />
+        <SponsorTierBadge name={tier.name} bracket={tier.bracket} />
       </Stack>
 
       {showDetails && (
@@ -75,43 +78,33 @@ const SponsorTierSection = ({
               <li key={acknowledgement}>{acknowledgement}</li>
             ))}
           </Box>
-          <Typography
-            variant="body2"
-            sx={{
-              mb: 4,
-              p: 3,
-              borderLeft: '4px solid var(--primary-green)',
-              backgroundColor: 'var(--light-gray)',
-            }}
-          >
-            <strong>Compliance review:</strong> {tier.complianceExplanation}
-          </Typography>
         </>
       )}
 
-      {sponsors.length > 0 ? (
-        <Grid container spacing={3} sx={{ mt: showDetails ? 0 : 2 }}>
-          {sponsors.map(sponsor => (
-            <Grid item xs={12} md={6} key={sponsor.id}>
-              <SponsorCard sponsor={sponsor} tierName={tier.name} />
-            </Grid>
-          ))}
-        </Grid>
-      ) : (
-        <Button
-          href={SPONSOR_FORM_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          variant="outlined"
-          sx={{
-            mt: showDetails ? 0 : 3,
-            minHeight: 44,
-            whiteSpace: 'normal',
-          }}
-        >
-          Become our first {tier.name} sponsor!
-        </Button>
-      )}
+      {shouldShowListings &&
+        (sponsors.length > 0 ? (
+          <Grid container spacing={3} sx={{ mt: showDetails ? 0 : 2 }}>
+            {sponsors.map(sponsor => (
+              <Grid item xs={12} md={6} key={sponsor.id}>
+                <SponsorCard sponsor={sponsor} tierName={tier.name} />
+              </Grid>
+            ))}
+          </Grid>
+        ) : (
+          <Button
+            href={SPONSOR_FORM_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            variant="outlined"
+            sx={{
+              mt: showDetails ? 0 : 3,
+              minHeight: 44,
+              whiteSpace: 'normal',
+            }}
+          >
+            Become our first {tier.name} sponsor!
+          </Button>
+        ))}
     </Box>
   );
 };
