@@ -183,6 +183,8 @@ export const Home = () => {
       </ContentContainer>
 
       <ContentContainer
+        component="section"
+        aria-labelledby="home-nondiscrimination-notice-title"
         variant="card"
         spacing="lg"
         style={{
@@ -194,12 +196,14 @@ export const Home = () => {
         }}
       >
         <Typography
-          variant="h3"
+          id="home-nondiscrimination-notice-title"
+          variant="h2"
           component="h2"
           sx={{
             color: 'var(--text-dark)',
             marginBottom: 'var(--spacing-lg)',
             fontWeight: 700,
+            fontSize: { xs: 'var(--text-2xl)', md: 'var(--text-3xl)' },
           }}
         >
           {nonDiscriminationPolicy.noticeTitle}

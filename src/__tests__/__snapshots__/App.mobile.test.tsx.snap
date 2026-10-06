@@ -275,28 +275,30 @@ exports[`App Component - Mobile Experience Mobile Layout and Responsiveness snap
                 </section>
               </div>
             </div>
-            <div
+            <section
+              aria-labelledby="home-nondiscrimination-notice-title"
               class="MuiBox-root css-12recp6"
               spacing="lg"
               style="text-align: left; box-shadow: var(--shadow-lg);"
               variant="card"
             >
               <h2
-                class="MuiTypography-root MuiTypography-h3 css-14ymvgm-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h2 css-18rb5gt-MuiTypography-root"
+                id="home-nondiscrimination-notice-title"
               >
                 Notice of Nondiscriminatory Policy as to Students
               </h2>
               <p
                 class="MuiTypography-root MuiTypography-body1 css-921h3j-MuiTypography-root"
               >
-                Montessori Skye View Learning Center admits students of any race, color, national and ethnic origin to all the rights, privileges, programs, and activities generally accorded or made available to students at the school.
+                Montessori Skye View Learning Center admits students of any race, color, national origin, and ethnic origin to all the rights, privileges, programs, and activities generally accorded or made available to students at the school.
               </p>
               <p
                 class="MuiTypography-root MuiTypography-body1 css-921h3j-MuiTypography-root"
               >
-                It does not discriminate on the basis of race, color, national and ethnic origin in administration of its educational policies, admissions policies, scholarship and financial assistance programs, and athletic and other school-administered programs.
+                Montessori Skye View Learning Center does not discriminate on the basis of race, color, national origin, or ethnic origin in the administration of its educational policies, admission policies, scholarship and loan programs, athletic programs, and other school-administered programs.
               </p>
-            </div>
+            </section>
           </div>
         </div>
         <div
