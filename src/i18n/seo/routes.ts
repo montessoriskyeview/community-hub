@@ -87,6 +87,15 @@ export const ROUTE_SEO_CONFIGS: Record<string, RouteSEOConfig> = {
       'accessibility, inclusive design, WCAG compliance, community hub accessibility, Las Vegas Montessori accessibility',
     url: '/accessibility',
   },
+  nonDiscriminationPolicy: {
+    title:
+      'Notice of Nondiscriminatory Policy as to Students | Montessori Skye View Learning Center',
+    description:
+      'Read Montessori Skye View Learning Center notice of nondiscriminatory policy as to students, including race, color, national, and ethnic origin protections.',
+    keywords:
+      'nondiscrimination policy, IRS private school notice, Montessori equal opportunity admissions, race color national ethnic origin policy',
+    url: '/non-discrimination-policy',
+  },
   review: {
     title: 'Share Your Experience | Montessori Skye View Community Hub',
     description:

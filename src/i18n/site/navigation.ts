@@ -13,6 +13,7 @@ export type NavigationItemKey =
   | 'faq'
   | 'philosophy'
   | 'accessibility'
+  | 'nonDiscriminationPolicy'
   | 'blog'
   | 'contact';
 
@@ -91,6 +92,11 @@ export const FOOTER_SECONDARY_NAVIGATION_ITEMS: NavigationItemContent[] = [
     key: 'accessibility',
     text: 'Accessibility',
     path: '/accessibility',
+  },
+  {
+    key: 'nonDiscriminationPolicy',
+    text: 'Non-Discrimination Policy',
+    path: '/non-discrimination-policy',
   },
   {
     key: 'blog',

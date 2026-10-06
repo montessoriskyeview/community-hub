@@ -8,6 +8,7 @@ import {
   EnrollmentSlot,
 } from '../i18n/entities/enrollments';
 import { enrollmentsPageContent } from '../i18n/pages/enrollments';
+import { nonDiscriminationPolicy } from '../config/nonDiscriminationPolicy';
 
 export const Enrollments = () => {
   const enrollmentSlots = ENROLLMENT_SLOTS;
@@ -249,6 +250,43 @@ export const Enrollments = () => {
         >
           {enrollmentsPageContent.contactUsLabel}
         </Button>
+      </ContentContainer>
+
+      <ContentContainer
+        variant="card"
+        spacing="lg"
+        style={{
+          textAlign: 'left',
+          background: 'var(--white)',
+          color: 'var(--text-dark)',
+          border: '3px solid var(--primary-blue)',
+          boxShadow: 'var(--shadow-lg)',
+        }}
+      >
+        <Typography
+          variant="h3"
+          sx={{
+            color: 'var(--text-dark)',
+            marginBottom: 'var(--spacing-lg)',
+            fontWeight: 700,
+          }}
+        >
+          {nonDiscriminationPolicy.noticeTitle}
+        </Typography>
+        {nonDiscriminationPolicy.fullStatement.map(statement => (
+          <Typography
+            key={statement}
+            variant="body1"
+            sx={{
+              color: 'var(--text-dark)',
+              fontSize: 'var(--text-lg)',
+              lineHeight: 'var(--leading-loose)',
+              marginBottom: 'var(--spacing-md)',
+            }}
+          >
+            {statement}
+          </Typography>
+        ))}
       </ContentContainer>
     </CanvasView>
   );

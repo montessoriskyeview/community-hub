@@ -6,6 +6,7 @@ import { CollapseContainer } from '../components/shared/CollapseContainer';
 import { ContentContainer } from '../components/shared/ContentContainer';
 import { Typography } from '../components/shared/Typography';
 import { registrationPageContent } from '../i18n/pages/registration';
+import { nonDiscriminationPolicy } from '../config/nonDiscriminationPolicy';
 
 export const Registration = () => {
   const currentEnrollmentPeriod = getNextActiveEnrollmentPeriod();
@@ -147,6 +148,43 @@ export const Registration = () => {
         >
           {registrationPageContent.joinDescription}
         </Typography>
+      </ContentContainer>
+
+      <ContentContainer
+        variant="card"
+        spacing="lg"
+        style={{
+          textAlign: 'left',
+          background: 'var(--white)',
+          color: 'var(--text-dark)',
+          border: '3px solid var(--primary-blue)',
+          boxShadow: 'var(--shadow-lg)',
+        }}
+      >
+        <Typography
+          variant="h3"
+          sx={{
+            color: 'var(--text-dark)',
+            marginBottom: 'var(--spacing-lg)',
+            fontWeight: 700,
+          }}
+        >
+          {nonDiscriminationPolicy.noticeTitle}
+        </Typography>
+        {nonDiscriminationPolicy.fullStatement.map(statement => (
+          <Typography
+            key={statement}
+            variant="body1"
+            sx={{
+              color: 'var(--text-dark)',
+              fontSize: 'var(--text-lg)',
+              lineHeight: 'var(--leading-loose)',
+              marginBottom: 'var(--spacing-md)',
+            }}
+          >
+            {statement}
+          </Typography>
+        ))}
       </ContentContainer>
     </CanvasView>
   );

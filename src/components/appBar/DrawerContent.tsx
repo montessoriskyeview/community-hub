@@ -20,6 +20,7 @@ import PhoneIcon from '@mui/icons-material/Phone';
 import QuestionIcon from '@mui/icons-material/QuestionAnswer';
 import AccessibilityIcon from '@mui/icons-material/Accessibility';
 import ArticleIcon from '@mui/icons-material/Article';
+import PolicyIcon from '@mui/icons-material/Policy';
 import PeopleIcon from '@mui/icons-material/People';
 import SchoolIcon from '@mui/icons-material/School';
 import GroupIcon from '@mui/icons-material/Group';
@@ -299,6 +300,7 @@ export const NAVBAR_ITEMS: NavbarItem[] = [
       faq: QuestionIcon,
       philosophy: LightbulbIcon,
       accessibility: AccessibilityIcon,
+      nonDiscriminationPolicy: PolicyIcon,
       blog: ArticleIcon,
       contact: PhoneIcon,
     }[item.key],

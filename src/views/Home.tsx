@@ -5,6 +5,7 @@ import { CanvasView } from '../components/shared/Canvas/CanvasView';
 import { ContentContainer } from '../components/shared/ContentContainer';
 import { Typography } from '../components/shared/Typography';
 import { Box } from '../components/shared/Box';
+import { nonDiscriminationPolicy } from '../config/nonDiscriminationPolicy';
 import SponsorDirectory from '../components/family-business-partners/SponsorDirectory';
 import { hasSponsors } from '../data/sponsors';
 
@@ -179,6 +180,44 @@ export const Home = () => {
           includePopulatedTiers={!showSponsors}
           headingIdPrefix={showSponsors ? 'home-partner-cta' : 'home-partner'}
         />
+      </ContentContainer>
+
+      <ContentContainer
+        variant="card"
+        spacing="lg"
+        style={{
+          textAlign: 'left',
+          background: 'var(--white)',
+          color: 'var(--text-dark)',
+          border: '3px solid var(--primary-blue)',
+          boxShadow: 'var(--shadow-lg)',
+        }}
+      >
+        <Typography
+          variant="h3"
+          component="h2"
+          sx={{
+            color: 'var(--text-dark)',
+            marginBottom: 'var(--spacing-lg)',
+            fontWeight: 700,
+          }}
+        >
+          {nonDiscriminationPolicy.noticeTitle}
+        </Typography>
+        {nonDiscriminationPolicy.fullStatement.map(statement => (
+          <Typography
+            key={statement}
+            variant="body1"
+            sx={{
+              color: 'var(--text-dark)',
+              fontSize: 'var(--text-lg)',
+              lineHeight: 'var(--leading-loose)',
+              marginBottom: 'var(--spacing-md)',
+            }}
+          >
+            {statement}
+          </Typography>
+        ))}
       </ContentContainer>
     </CanvasView>
   );

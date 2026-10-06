@@ -275,10 +275,32 @@ exports[`App Component - Mobile Experience Mobile Layout and Responsiveness snap
                 </section>
               </div>
             </div>
+            <div
+              class="MuiBox-root css-12recp6"
+              spacing="lg"
+              style="text-align: left; box-shadow: var(--shadow-lg);"
+              variant="card"
+            >
+              <h2
+                class="MuiTypography-root MuiTypography-h3 css-14ymvgm-MuiTypography-root"
+              >
+                Notice of Nondiscriminatory Policy as to Students
+              </h2>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-921h3j-MuiTypography-root"
+              >
+                Montessori Skye View Learning Center admits students of any race, color, national and ethnic origin to all the rights, privileges, programs, and activities generally accorded or made available to students at the school.
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-921h3j-MuiTypography-root"
+              >
+                It does not discriminate on the basis of race, color, national and ethnic origin in administration of its educational policies, admissions policies, scholarship and financial assistance programs, and athletic and other school-administered programs.
+              </p>
+            </div>
           </div>
         </div>
         <div
-          class="MuiBox-root css-1jh62j7"
+          class="MuiBox-root css-1f77zi0"
         >
           <div
             aria-expanded="false"
@@ -568,6 +590,16 @@ exports[`App Component - Mobile Experience Mobile Layout and Responsiveness snap
               tabindex="0"
             >
               Accessibility
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </a>
+            <a
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-10l2un7-MuiButtonBase-root-MuiButton-root"
+              href="/non-discrimination-policy"
+              tabindex="0"
+            >
+              Non-Discrimination Policy
               <span
                 class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
               />

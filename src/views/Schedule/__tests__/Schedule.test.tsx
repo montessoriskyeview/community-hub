@@ -2,6 +2,7 @@ import { render, screen, fireEvent, waitFor } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 import { Schedule } from '../index';
 import { FULL_TIME_SCHEDULE_ITEMS, PART_TIME_SCHEDULE_ITEMS } from '../items';
+import { schedulePageContent } from '../../../i18n/pages/schedule';
 
 // Mock the router
 const ScheduleWithRouter = () => (
@@ -44,8 +45,8 @@ describe('Schedule Component', () => {
     render(<ScheduleWithRouter />);
 
     // Check that both program cards are present
-    expect(screen.getByText('Full-Time Program')).toBeInTheDocument();
-    expect(screen.getByText('Part-Time Program')).toBeInTheDocument();
+    expect(screen.getByText(schedulePageContent.fullTimeProgramTitle)).toBeInTheDocument();
+    expect(screen.getByText(schedulePageContent.partTimeProgramTitle)).toBeInTheDocument();
 
     // Check that separate schedule collapse containers are present using test IDs
     expect(screen.getByTestId('full-time-daily-schedule')).toBeInTheDocument();

@@ -26,7 +26,7 @@ export const MobileHeroCTA = () => {
     <Box
       component="div"
       sx={{
-        display: { xs: 'block', md: 'none' }, // Only show on mobile
+        display: 'block', // Keep CTA available on both mobile and desktop
         position: 'fixed', // Changed from sticky to fixed
         bottom: -2,
         left: 0,

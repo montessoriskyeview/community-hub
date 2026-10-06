@@ -63,6 +63,11 @@ const Accessibility = React.lazy(() =>
     default: module.Accessibility,
   }))
 );
+const NonDiscriminationPolicy = React.lazy(() =>
+  import('./views/NonDiscriminationPolicy').then(module => ({
+    default: module.NonDiscriminationPolicy,
+  }))
+);
 const FaqView = React.lazy(() =>
   import('./views/FAQ').then(module => ({ default: module.FaqView }))
 );
@@ -175,6 +180,9 @@ const SEOUpdater: React.FC = () => {
       break;
     case '/accessibility':
       seoConfig = ROUTE_SEO_CONFIGS.accessibility;
+      break;
+    case '/non-discrimination-policy':
+      seoConfig = ROUTE_SEO_CONFIGS.nonDiscriminationPolicy;
       break;
     case '/review':
       seoConfig = ROUTE_SEO_CONFIGS.review;
@@ -395,6 +403,10 @@ function App() {
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/faq" element={<FaqView />} />
                 <Route path="/accessibility" element={<Accessibility />} />
+                <Route
+                  path="/non-discrimination-policy"
+                  element={<NonDiscriminationPolicy />}
+                />
                 <Route path="/review" element={<Review />} />
                 <Route path="/blog" element={<BlogPage />} />
                 <Route path="/blog/:slug" element={<BlogPostPage />} />
